@@ -30,62 +30,65 @@
 
     <body>
         
-        <!-- Header -->
-        <header>
-            <nav>
-                <a href="index.html" title="Retour à la page d'accueil">
-                    <img src="pictures/logo/Reservia.svg" alt="Logo de Reservia">
-                </a>
+        <div id="main_wrapper">
+            
+            <!-- Header -->
+            <header>
+                <nav>
+                    <a href="index.html" title="Retour à la page d'accueil">
+                        <img src="pictures/logo/Reservia.svg" alt="Logo de Reservia">
+                    </a>
 
+                    <ul>
+                        <li><a href="#lodging">Hébergements</a></li>
+                        <li><a href="#activities">Activités</a></li>
+                        <li><a href="#">S'inscrire</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Section Search -->
+            <section id="search">
+
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+
+                    <h3>En plein centre ville ou en pleine nature</h3>
+
+                <!-- In this order: location search icon, field and button -->
+                <form id="location_search_form" method="post" action="#">
+
+                    <i class="fas fa-map-marker-alt"></i>
+                    
+                    <label for="locationSearchFeild"><img src="" alt=""></label>
+                    <input type="search" name="locationSearchFeild" id="location_search_feild" placeholder="Marseille, France">
+
+                    <input type="submit" name="locationSearchButton" id="location_search_button" value="Rechercher">
+                    
+                </form>
+
+            </section>
+
+
+            <!-- Section Filter -->
+            <section id="filters">
+
+                <h2>Filtres</h2>
+
+                <!-- Filter list -->
                 <ul>
-                    <li><a href="#lodging">Hébergements</a></li>
-                    <li><a href="#activities">Activités</a></li>
-                    <li><a href="#">S'inscrire</a></li>
+                    <li><a href="#">Économique</a></li>
+                    <li><a href="#">Familial</a></li>
+                    <li><a href="#">Romantique</a></li>
+                    <li><a href="#">Animaux autorisés</a></li>
                 </ul>
-            </nav>
-        </header>
+            
+                <div id="infos_on_research_result">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
 
-        <!-- Section Search -->
-        <section id="search">
-
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-
-                <h3>En plein centre ville ou en pleine nature</h3>
-
-            <!-- In this order: location search icon, field and button -->
-            <form id="location_search_form" method="post" action="#">
-
-                <i class="fas fa-map-marker-alt"></i>
-                
-                <label for="locationSearchFeild"><img src="" alt=""></label>
-                <input type="search" name="locationSearchFeild" id="location_search_feild" placeholder="Marseille, France">
-
-                <input type="submit" name="locationSearchButton" id="location_search_button" value="Rechercher">
-                
-            </form>
-
-        </section>
-
-
-        <!-- Section Filter -->
-        <section id="filters">
-
-            <h2>Filtres</h2>
-
-            <!-- Filter list -->
-            <ul>
-                <li><a href="#">Économique</a></li>
-                <li><a href="#">Familial</a></li>
-                <li><a href="#">Romantique</a></li>
-                <li><a href="#">Animaux autorisés</a></li>
-            </ul>
-        
-            <div id="infos_on_research_result">
-                <i class="fas fa-info-circle"></i>
-                <p>Plus de 500 logements sont disponibles dans cette ville</p>
-            </div>
-
-        </section>
+            </section>
+        </div>
 
     </body>
 </html>
