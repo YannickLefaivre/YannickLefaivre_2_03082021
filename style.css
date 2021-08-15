@@ -31,6 +31,19 @@ a
     text-decoration: none;
 }
 
+header nav ul li:nth-child(3) a, #filters a
+{
+    font-weight: bold;
+}
+
+
+/* Header */
+
+header nav ul li:nth-child(1), header nav ul li:nth-child(2)
+{
+    font-weight: 500;
+}
+
 
 
 /* Specific layout rules for large PC and TV screen */
