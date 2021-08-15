@@ -43,6 +43,12 @@ ul
     {
         width: 20%;
     }
+
+    header nav
+    {
+        width: 45%;
+        height: 39px;
+    }
 }
 
 
