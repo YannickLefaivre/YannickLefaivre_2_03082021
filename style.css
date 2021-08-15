@@ -38,6 +38,11 @@ ul
         flex-direction: row;
         justify-content: space-between;
     }
+
+    header a
+    {
+        width: 20%;
+    }
 }
 
 
