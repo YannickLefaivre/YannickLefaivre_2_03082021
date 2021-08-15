@@ -33,6 +33,9 @@ ul
     {
         width: 100%;
         height: 54px;
+
+        display: flex;
+        flex-direction: row;
     }
 }
 
