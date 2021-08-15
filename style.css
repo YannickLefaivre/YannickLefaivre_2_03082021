@@ -18,3 +18,16 @@ ul
     list-style-type: none;
 }
 
+
+/* Specific layout rules for large PC and TV screen */
+
+@media all and (max-width: 1600px)
+{
+    #main_wrapper
+    {    
+        max-width: 1344px;
+        margin: auto;
+    }
+}
+
+
