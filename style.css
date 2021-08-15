@@ -8,15 +8,22 @@ body
     color: black;
 }
 
-a
+h1, h2
 {
-    text-decoration: none;
+    font-weight: bold;
 }
+
 
 ul
 {
     list-style-type: none;
 }
+
+a
+{
+    text-decoration: none;
+}
+
 
 
 /* Specific layout rules for large PC and TV screen */
