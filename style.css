@@ -49,6 +49,12 @@ ul
         width: 45%;
         height: 39px;
     }
+
+    header nav ul
+    {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 
