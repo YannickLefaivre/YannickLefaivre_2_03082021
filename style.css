@@ -55,6 +55,8 @@ ul
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+
+        font-size: 0.9em;
     }
 }
 
