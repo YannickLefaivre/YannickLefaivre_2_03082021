@@ -45,13 +45,13 @@ ul
         width: 20%;
     }
 
-    header nav
+    #navigation_menu
     {
         width: 45%;
         height: 72px;
     }
 
-    header nav ul
+    #navigation_menu ul
     {
         display: flex;
         flex-direction: row;
