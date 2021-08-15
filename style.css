@@ -54,9 +54,10 @@ header nav ul li:nth-child(1), header nav ul li:nth-child(2)
 {
     #main_wrapper
     {    
-        max-width: 160px;
+        max-width: 337px;
         margin: auto;
     }
+
 }
 
 /* Specific layout rules for tablette */
