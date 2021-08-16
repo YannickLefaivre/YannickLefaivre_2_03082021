@@ -89,18 +89,6 @@ header nav ul li
         margin-top: 0.5em;
         margin-left: -2em;
     }
-
-    header nav ul li:nth-child(1)
-    {
-        margin-right: 5em;
-    }
-
-    header nav ul li:last-child
-    {
-        order: -1;
-
-        margin-left: 17em;
-    }
 }
 
 /* Specific layout rules for tablette */
