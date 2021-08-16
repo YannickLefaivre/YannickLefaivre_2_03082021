@@ -55,7 +55,7 @@ header nav ul li
 
 /* Specific layout rules for smartphone */
 
-@media all and (min-width: 0) 
+@media all and (max-width: 768) 
 {
     #main_wrapper
     {    
@@ -105,7 +105,7 @@ header nav ul li
 
 /* Specific layout rules for tablette */
 
-@media all and (min-width: 768px)
+@media all and (max-width: 992px)
 {
     #main_wrapper
     {    
@@ -117,7 +117,7 @@ header nav ul li
 
 /* Specific layout rules for classic PC screen */
 
-@media all and (min-width: 992px)
+@media all and (min-width: 1200px)
 {
     #main_wrapper
     {    
@@ -127,10 +127,9 @@ header nav ul li
 }
 
 
-
 /* Specific layout rules for large PC and TV screen */
 
-@media all and (min-width: 1200px)
+@media all and (max-width: 1600px)
 {
     #main_wrapper
     {    
