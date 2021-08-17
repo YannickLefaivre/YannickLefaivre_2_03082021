@@ -103,7 +103,7 @@ header nav ul li:nth-child(3) a:visited
         margin-left: -6em;
     }
 
-    header nav ul li:nth-child(1), header nav ul li:nth-child(2)
+    header nav ul li
     {
         margin-top: 0.5em;
         margin-left: -3em;
@@ -114,9 +114,9 @@ header nav ul li:nth-child(3) a:visited
         margin-right: 3em;
     }
 
-    header nav ul li:nth-child(1) a:hover, header nav ul li:nth-child(2) a:hover
+    header nav ul li a:hover
     {
-        padding-bottom: 2em;
+        padding-bottom: 1em;
 
         border-bottom: 2px solid #0065fc;
     }
@@ -161,7 +161,7 @@ header nav ul li:nth-child(3) a:visited
         margin-left: -7em;
     }
 
-    header nav ul li:nth-child(1), header nav ul li:nth-child(2)
+    header nav ul li
     {
         margin-top: 0.5em;
         margin-left: -2em;
@@ -172,9 +172,9 @@ header nav ul li:nth-child(3) a:visited
         margin-right: 5em;
     }
 
-    header nav ul li:nth-child(1) a:hover, header nav ul li:nth-child(2) a:hover
+    header nav ul li a:hover
     {
-        padding-bottom: 2em;
+        padding-bottom: 1em;
 
         border-bottom: 2px solid #0065fc;
     }
@@ -225,12 +225,17 @@ header nav ul li:nth-child(3) a:visited
         justify-content: space-around;
     }
 
-    header nav ul li, header nav ul li a
+    header nav ul li
     {
         padding: 2em 1.5em 1.5em 1.5em;
     }
 
-    header nav ul li:nth-child(1) a:hover, header nav ul li:nth-child(2) a:hover
+    header nav ul li a
+    {
+        padding: 1.7em 1.5em 1.5em 1.5em;
+    }
+
+    header nav ul li a:hover
     {
         border-top: 2px solid #0065fc;
     }
