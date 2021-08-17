@@ -114,13 +114,6 @@ header nav ul li:nth-child(3) a:visited
         margin-right: 3em;
     }
 
-    header nav ul li a:hover
-    {
-        padding-bottom: 1em;
-
-        border-bottom: 2px solid #0065fc;
-    }
-
     header nav ul li:last-child
     {
         order: -1;
@@ -172,13 +165,6 @@ header nav ul li:nth-child(3) a:visited
         margin-right: 5em;
     }
 
-    header nav ul li a:hover
-    {
-        padding-bottom: 1em;
-
-        border-bottom: 2px solid #0065fc;
-    }
-
     header nav ul li:last-child
     {
         order: -1;
@@ -186,6 +172,20 @@ header nav ul li:nth-child(3) a:visited
         margin-left: 17em;
     }
 }
+
+
+/* Specific layout rules for mobile of all screen size */
+
+@media (min-width: 0) and (max-width: 765px)
+{
+    header nav ul li:nth-child(1) a:hover, header nav ul li:nth-child(2) a:hover
+    {
+        padding-bottom: 1em;
+
+        border-bottom: 2px solid #0065fc;
+    }
+}
+
 
 /* Specific layout rules for tablette */
 
