@@ -53,9 +53,9 @@ header nav ul li
 
 
 
-//* Specific layout rules for smartphone */
+/* Specific layout rules for smartphone */
 
-@media (min-width: 0) and (max-width: 768px)
+@media (min-width: 280px) and (max-width: 768px)
 {
     #main_wrapper
     {    
