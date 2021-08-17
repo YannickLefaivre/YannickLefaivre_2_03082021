@@ -114,7 +114,7 @@ header nav ul li:nth-child(3) a:visited
         margin-right: 3em;
     }
 
-    header nav ul li:nth-child(1) a:hover, header nav ul li:nth-child(2) a:hover
+    header nav ul li a:hover
     {
         padding-bottom: 1em;
 
@@ -172,7 +172,7 @@ header nav ul li:nth-child(3) a:visited
         margin-right: 5em;
     }
 
-    header nav ul li:nth-child(1) a:hover, header nav ul li:nth-child(2) a:hover
+    header nav ul li a:hover
     {
         padding-bottom: 1em;
 
