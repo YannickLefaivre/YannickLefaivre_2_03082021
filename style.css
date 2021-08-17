@@ -219,4 +219,9 @@ header nav ul li
         font-size: 1em;
         font-weight: normal;
     }
+
+    #location_search_form
+    {
+        width: 40%;
+    }
 }
