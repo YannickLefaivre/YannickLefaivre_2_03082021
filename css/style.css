@@ -106,12 +106,19 @@ header nav ul li:nth-child(3) a:visited
     header nav ul li
     {
         margin-top: 0.5em;
-        margin-left: -3em;
+        margin-left: -4em;
+    }
+
+    header nav ul li:nth-child(1) a, header nav ul li:nth-child(2) a
+    {
+        padding: 0 1.5em 1em 1.5em;
+
+        border-bottom: 2px solid #f2f2f2;
     }
 
     header nav ul li:nth-child(1)
     {
-        margin-right: 3em;
+        margin-right: 2em;
     }
 
     header nav ul li:last-child
@@ -157,12 +164,19 @@ header nav ul li:nth-child(3) a:visited
     header nav ul li
     {
         margin-top: 0.5em;
-        margin-left: -2em;
+        margin-left: -3em;
+    }
+    
+    header nav ul li:nth-child(1) a, header nav ul li:nth-child(2) a
+    {
+        padding: 0 3em 1em 3em;
+
+        border-bottom: 2px solid #f2f2f2;
     }
 
     header nav ul li:nth-child(1)
     {
-        margin-right: 5em;
+        margin-right: 1.5em;
     }
 
     header nav ul li:last-child
