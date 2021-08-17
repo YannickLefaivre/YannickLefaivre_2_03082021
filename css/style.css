@@ -374,6 +374,11 @@ header nav ul li:nth-child(3) a:visited
         width: 50%;
         height: 138px;
 
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+
         margin-top: 1.5em;
     }
 
