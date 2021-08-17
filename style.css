@@ -206,4 +206,9 @@ header nav ul li
         flex-direction: column;
         align-items: left;
     }
+
+    #search h1
+    {
+        font-size: 1.3em;
+    }
 }
