@@ -211,4 +211,9 @@ header nav ul li
     {
         font-size: 1.3em;
     }
+
+    #search h3
+    {
+        margin-top: -0.7em;
+    }
 }
