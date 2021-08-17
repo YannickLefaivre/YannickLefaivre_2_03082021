@@ -294,12 +294,17 @@ header nav ul li:nth-child(3) a:visited
         justify-content: space-around;
     }
 
-    header nav ul li, header nav ul li a
+    header nav ul li
     {
         padding: 2em 1.5em 1.5em 1.5em;
     }
+
+    header nav ul li a
+    {
+        padding: 1.7em 1.5em 1.5em 1.5em;
+    }
     
-    header nav ul li:nth-child(1) a:hover, header nav ul li:nth-child(2) a:hover
+    header nav ul li a:hover
     {
         border-top: 2px solid #0065fc;
     }
@@ -346,12 +351,17 @@ header nav ul li:nth-child(3) a:visited
         justify-content: space-around;
     }
 
-    header nav ul li, header nav ul li a
+    header nav ul li
     {
         padding: 2em 1.5em 1.5em 1.5em;
     }
+
+    header nav ul li a
+    {
+        padding: 1.7em 1.5em 1.5em 1.5em;
+    }
     
-    header nav ul li:nth-child(1) a:hover, header nav ul li:nth-child(2) a:hover
+    header nav ul li a:hover
     {
         border-top: 2px solid #0065fc;
     }
