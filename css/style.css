@@ -428,7 +428,7 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_field
     {
-        width: 30%;
+        width: 28%;
         height: 2.5em;
 
         padding-left: 0.8em;
@@ -437,5 +437,11 @@ header nav ul li:nth-child(3) a:visited
 
         border: 1px solid #f2f2f2;
         border-radius: 0;
+    }
+
+    #location_search_button
+    {
+        width: 15%;
+        height: 2.5em;
     }
 }
