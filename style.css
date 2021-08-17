@@ -345,4 +345,9 @@ header nav ul li:nth-child(3) a:visited
         width: 50%;
         height: 138px;
     }
+
+    #search h1
+    {
+        font-size: 1.2em;
+    }
 }
