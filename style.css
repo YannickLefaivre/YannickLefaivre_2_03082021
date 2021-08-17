@@ -53,9 +53,9 @@ header nav ul li
 
 
 
-/* Specific layout rules for smartphone */
+//* Specific layout rules for smartphone */
 
-@media all and (max-width: 768) 
+@media (min-width: 0) and (max-width: 768px)
 {
     #main_wrapper
     {    
@@ -89,11 +89,23 @@ header nav ul li
         margin-top: 0.5em;
         margin-left: -2em;
     }
+
+    header nav ul li:nth-child(1)
+    {
+        margin-right: 5em;
+    }
+
+    header nav ul li:last-child
+    {
+        order: -1;
+
+        margin-left: 17em;
+    }
 }
 
 /* Specific layout rules for tablette */
 
-@media all and (max-width: 992px)
+@media (min-width: 768px) and (max-width: 992px)
 {
     #main_wrapper
     {    
@@ -105,7 +117,7 @@ header nav ul li
 
 /* Specific layout rules for classic PC screen */
 
-@media all and (min-width: 1200px)
+@media (min-width: 992px) and (max-width: 1200px)
 {
     #main_wrapper
     {    
@@ -115,9 +127,10 @@ header nav ul li
 }
 
 
+
 /* Specific layout rules for large PC and TV screen */
 
-@media all and (max-width: 1600px)
+@media (min-width: 1200px) and (max-width: 1980px)
 {
     #main_wrapper
     {    
@@ -125,7 +138,7 @@ header nav ul li
         margin: auto;
     }
 
-    
+
     /* Header */
 
     header nav
@@ -158,10 +171,15 @@ header nav ul li
     {
         padding: 2em 1.5em 1.5em 1.5em;
     }
-
+    
     header nav ul li:nth-child(1) a:visited, header nav ul li:nth-child(2) a:visited
     {
         color: black;
+    }
+
+    header nav ul li:nth-child(3) a
+    {
+        color: #0065fc;
     }
 
     header nav ul li:nth-child(1) a:hover, header nav ul li:nth-child(2) a:hover
@@ -171,45 +189,8 @@ header nav ul li
         border-top: 2px solid #0065fc;
     }
 
-    header nav ul li:nth-child(3) a
-    {
-        color: #0065fc;
-    }
-
     header nav ul li:nth-child(3) a:visited
     {
         color: #0065fc;
-    }
-
-    /* Search section */
-
-    #search
-    {
-        width: 50%;
-        height: 138px;
-
-        margin-top: 33px;
-
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-    }
-
-    #search h1
-    {
-        font-size: 1.3em;
-    }
-
-    #search h3
-    {
-        margin-top: -0.7em;
-
-        font-size: 1em;
-        font-weight: normal;
-    }
-
-    #location_search_form
-    {
-        width: 40%;
     }
 }
