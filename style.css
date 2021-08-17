@@ -136,9 +136,13 @@ header nav ul li:nth-child(3) a:visited
 {
     #main_wrapper
     {    
-        max-width: 608px;
+        max-width: 727px;
         margin: auto;
     }
+
+    /* Header */
+
+
 }
 
 
@@ -199,23 +203,8 @@ header nav ul li:nth-child(3) a:visited
         padding: 2em 1.5em 1.5em 1.5em;
     }
     
-    header nav ul li:nth-child(1) a:visited, header nav ul li:nth-child(2) a:visited
-    {
-        color: black;
-    }
-
-    header nav ul li:nth-child(3) a
-    {
-        color: #0065fc;
-    }
-
     header nav ul li:nth-child(1) a:hover, header nav ul li:nth-child(2) a:hover
     {
         border-top: 2px solid #0065fc;
-    }
-
-    header nav ul li:nth-child(3) a:visited
-    {
-        color: #0065fc;
     }
 }
