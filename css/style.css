@@ -404,5 +404,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: row;
         justify-content: left;
         align-items: center;
+
+        margin-top: -0.6em;
     }
 }
