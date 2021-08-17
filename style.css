@@ -350,4 +350,11 @@ header nav ul li:nth-child(3) a:visited
     {
         font-size: 1.2em;
     }
+
+    #search h3
+    {
+        font-size: 0.9em;
+
+        margin-top: -0.6em;
+    }
 }
