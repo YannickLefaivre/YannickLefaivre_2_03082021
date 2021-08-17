@@ -192,4 +192,12 @@ header nav ul li
     {
         color: #0065fc;
     }
+
+    /* Search section */
+
+    #search
+    {
+        width: 50%;
+        height: 138px;
+    }
 }
