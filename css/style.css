@@ -503,7 +503,7 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_form
     {
-        width: 100%;
+        width: 50%;
         height: 44px;
 
         display: flex;
@@ -514,6 +514,8 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_form i
     {
+        flex: 0.15;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -534,6 +536,8 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_field
     {
+        flex: 0.6;
+
         width: 28%;
         height: 2.5em;
 
@@ -550,7 +554,8 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_button
     {
-        width: 17%;
+        flex: 0.33;
+
         height: 2.5em;
 
         font-size: 1em;
@@ -670,6 +675,8 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_form i
     {
+        flex: 0.08;
+
         font-size: 2rem;
 
         display: flex;
@@ -692,7 +699,8 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_field
     {
-        width: 33%;
+        flex: 0.31;
+
         height: 2.5em;
 
         padding-left: 0.8em;
@@ -708,7 +716,8 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_button
     {
-        width: 19%;
+        flex: 0.18;
+
         height: 2.5em;
 
         font-size: 2em;
