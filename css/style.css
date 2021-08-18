@@ -1089,3 +1089,13 @@ header nav ul li:nth-child(3) a:visited
         border-bottom-right-radius: 1.6rem;
     }
 }
+
+/* CSS rules specific to PC and TV of all size screen */
+
+@media (min-width: 992px)
+{
+    #location_search_form i.fa-search
+    {
+        display: none;
+    }
+}
