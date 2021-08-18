@@ -46,11 +46,6 @@ header nav ul li:nth-child(1), header nav ul li:nth-child(2)
     font-weight: 500;
 }
 
-header nav ul li
-{
-    font-size: 0.9em;
-}
-
 header nav ul li:nth-child(1) a:visited, header nav ul li:nth-child(2) a:visited
 {
     color: black;
@@ -262,7 +257,7 @@ header nav ul li:nth-child(3) a:visited
 {
     #main_wrapper
     {    
-        max-width: 1000px;
+        max-width: 960px;
         margin: auto;
     }
 
@@ -281,17 +276,24 @@ header nav ul li:nth-child(3) a:visited
 
     header nav a
     {
-        width: 10%;
+        width: 9%;
+    }
+
+    header nav a img
+    {
+        width: 4.8em;
+        height: 46px;
     }
 
     header nav ul
     {
         width: 55%;
-        height: 87px;
+        height: 46px;
 
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
     }
 
     header nav ul li
@@ -301,6 +303,8 @@ header nav ul li:nth-child(3) a:visited
 
     header nav ul li a
     {
+        font-size: 0.8em;
+
         padding: 1.7em 1.5em 1.5em 1.5em;
     }
     
@@ -358,6 +362,8 @@ header nav ul li:nth-child(3) a:visited
 
     header nav ul li a
     {
+        font-size: 0.9rem;
+
         padding: 1.7em 1.5em 1.5em 1.5em;
     }
     
