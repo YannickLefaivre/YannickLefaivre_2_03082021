@@ -260,11 +260,6 @@ header nav ul li:nth-child(3) a:visited
         border-radius: 0;
     }
 
-    #location_search_button
-    {
-        display: none;
-    }
-
     .fa-search
     {
         width: 3rem;
@@ -298,6 +293,7 @@ header nav ul li:nth-child(3) a:visited
         border-bottom: 2px solid #0065fc;
     }
 }
+
 
 
 /* Specific layout rules for tablette */
@@ -408,10 +404,6 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_form i
     {
-        flex: 0.15;
-
-        font-size: 0.8rem;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -420,7 +412,10 @@ header nav ul li:nth-child(3) a:visited
 
     .fa-map-marker-alt
     {
-        height: 2.3em;
+        width: 2.5em;
+        height: 2.5em;
+
+        font-size: 0.8em;
 
         background-color: #f2f2f2;
 
@@ -431,9 +426,8 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_field
     {
-        flex: 0.4;
-
-        height: 1.8rem;
+        width: 65%;
+        height: 2rem;
 
         padding-left: 0.7em;
 
@@ -446,23 +440,34 @@ header nav ul li:nth-child(3) a:visited
         border-radius: 0;
     }
 
-    #location_search_button
+    .fa-search
     {
-        flex: 0.3;
+        width: 2.5em;
+        height: 2.5em;
 
-        height: 1.8rem;
-
-        font-size: 0.7em;
-        font-weight: bold;
+        font-size: 0.8em;
+        
+        margin-left: -2em;
 
         color: white;
         background-color: #0065fc;
 
-        border: 1px solid #0065fc;
-        border-top-right-radius: 0.7rem;
-        border-bottom-right-radius: 0.7rem;
+        border-radius: 30%;
     }
 }
+
+
+
+/* Specific layout rules for mobiles and tablettes */
+
+@media (min-width: 0) and (max-width: 992px) 
+{
+    #location_search_button
+    {
+        display: none;
+    }
+}
+
 
 
 /* Specific layout rules for classic PC screen */
