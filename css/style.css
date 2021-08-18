@@ -906,6 +906,11 @@ header nav ul li:nth-child(3) a:visited
         align-items: center;
         align-content: space-between;
     }
+
+    #filters h2, .filters
+    {
+        font-size: 1em;
+    }
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
