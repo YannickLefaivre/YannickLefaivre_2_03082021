@@ -940,6 +940,13 @@ header nav ul li:nth-child(3) a:visited
         justify-content: flex-start;
         align-items: center;
     }
+
+    #infos_on_research_result p
+    {
+        width: 90%;
+
+        margin-left: 0.5em;
+    }
 }
 
 /* Specific layout rules for large PC and TV screen above 4k resolution */
