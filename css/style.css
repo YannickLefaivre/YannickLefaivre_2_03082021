@@ -236,6 +236,8 @@ header nav ul li:nth-child(3) a:visited
         width: 2.7rem;
         height: 3em;
 
+        margin-left: -1rem;
+
         font-size: 1em;
 
         background-color: #f2f2f2;
@@ -246,7 +248,7 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_field
     {
-        width: 85%;
+        width: 80%;
         height: 3rem;
 
         padding-left: 0.7em;
@@ -267,7 +269,7 @@ header nav ul li:nth-child(3) a:visited
 
         font-size: 1em;
         
-        margin-left: -2em;
+        margin-left: -2.5em;
 
         color: white;
         background-color: #0065fc;
