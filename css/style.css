@@ -224,14 +224,21 @@ header nav ul li:nth-child(3) a:visited
         width: 14%;
     }
 
+    header nav a img
+    {
+        width: 5em;
+        height: 50px;
+    }
+
     header nav ul
     {
-        width: 65%;
+        width: 60%;
         height: 87px;
 
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
     }
 
     header nav ul li
@@ -241,12 +248,115 @@ header nav ul li:nth-child(3) a:visited
 
     header nav ul li a
     {
-        padding: 1.7em 1.5em 1.5em 1.5em;
+        font-size: 0.8em;
+
+        padding: 3em 1.5em 1.5em 1.5em;
     }
 
     header nav ul li a:hover
     {
         border-top: 2px solid #0065fc;
+    }
+    
+    
+    /* Section Search */
+
+    #search
+    {
+        width: 50%;
+        height: 110px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+
+        margin-top: 0.8em;
+    }
+
+    #search h1
+    {
+        width: 60%;
+
+        font-size: 0.9em;
+    }
+
+    #search h3
+    {
+        font-size: 0.7em;
+        font-weight: normal;
+
+        margin-top: -0.4em;
+    }
+
+    #location_search_form
+    {
+        width: 80%;
+        height: 47px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+
+        margin-top: -0.2em;
+    }
+
+    #location_search_form i
+    {
+        flex: 0.15;
+
+        font-size: 0.8rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-map-marker-alt
+    {
+        height: 2.3em;
+
+        background-color: #f2f2f2;
+
+        border: 1px solid #f2f2f2;
+        border-top-left-radius: 0.7rem;
+        border-bottom-left-radius: 0.7rem;
+    }
+
+    #location_search_field
+    {
+        flex: 0.4;
+
+        height: 1.8rem;
+
+        padding-left: 0.7em;
+
+        font-size: 0.7em;
+        font-weight: bolder;
+
+        text-align: left;
+
+        border: 1px solid #f2f2f2;
+        border-radius: 0;
+    }
+
+    #location_search_button
+    {
+        flex: 0.3;
+
+        height: 1.8rem;
+
+        font-size: 0.7em;
+        font-weight: bold;
+
+        color: white;
+        background-color: #0065fc;
+
+        border: 1px solid #0065fc;
+        border-top-right-radius: 0.7rem;
+        border-bottom-right-radius: 0.7rem;
     }
 }
 
