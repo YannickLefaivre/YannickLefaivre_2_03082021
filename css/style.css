@@ -889,6 +889,19 @@ header nav ul li:nth-child(3) a:visited
         border-top-right-radius: 0.7rem;
         border-bottom-right-radius: 0.7rem;
     }
+
+
+    /* Filters section */
+    
+    #filters
+    {
+        width: 75%;
+        height: 126px;
+
+        margin: 0.16em 0;
+    }
+
+
 }
 
 /* Specific layout rules for large PC and TV screen above 4k resolution */
