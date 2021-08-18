@@ -926,6 +926,11 @@ header nav ul li:nth-child(3) a:visited
         justify-content: space-around;
         align-items: center;
     }
+
+    #infos_on_research_result
+    {
+        width: 50%;
+    }
 }
 
 /* Specific layout rules for large PC and TV screen above 4k resolution */
