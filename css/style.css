@@ -901,6 +901,12 @@ header nav ul li:nth-child(3) a:visited
         margin: 0.16em 0;
 
         display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: space-between;
+    }
+        display: flex;
         flex-direction: row;
         justify-content: flex-start;
     }
