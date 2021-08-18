@@ -485,12 +485,12 @@ header nav ul li:nth-child(3) a:visited
 
     header nav a
     {
-        width: 7%;
+        width: 8%;
     }
 
     header nav a img
     {
-        width: 100%;
+        width: 12em;
         height: 100px;
     }
 
