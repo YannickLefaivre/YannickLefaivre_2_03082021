@@ -261,7 +261,7 @@ header nav ul li:nth-child(3) a:visited
         margin: auto;
     }
 
-    
+
     /* Header */
 
     header nav
@@ -306,7 +306,7 @@ header nav ul li:nth-child(3) a:visited
     {
         font-size: 0.8em;
 
-        padding: 1.7em 1.5em 1.5em 1.5em;
+        padding: 3em 1.5em 1.5em 1.5em;
     }
     
     header nav ul li a:hover
@@ -464,7 +464,7 @@ header nav ul li:nth-child(3) a:visited
     {
         font-size: 0.9rem;
 
-        padding: 1.7em 1.5em 1.5em 1.5em;
+        padding: 2em 1.5em 1.5em 1.5em;
     }
     
     header nav ul li a:hover
