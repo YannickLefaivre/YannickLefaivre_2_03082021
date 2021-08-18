@@ -443,5 +443,11 @@ header nav ul li:nth-child(3) a:visited
     {
         width: 15%;
         height: 2.5em;
+
+        background-color: #0065fc;
+
+        border: 1px solid #0065fc;
+        border-top-right-radius: 0.7rem;
+        border-bottom-right-radius: 0.7rem;
     }
 }
