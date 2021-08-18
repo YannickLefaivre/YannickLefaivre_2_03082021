@@ -899,9 +899,11 @@ header nav ul li:nth-child(3) a:visited
         height: 126px;
 
         margin: 0.16em 0;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
-
-
 }
 
 /* Specific layout rules for large PC and TV screen above 4k resolution */
