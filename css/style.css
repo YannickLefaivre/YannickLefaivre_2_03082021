@@ -935,6 +935,10 @@ header nav ul li:nth-child(3) a:visited
 
         margin: 0.5em 0;
 
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
     }
 }
 
