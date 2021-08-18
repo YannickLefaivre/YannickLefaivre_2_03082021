@@ -312,7 +312,7 @@ header nav ul li:nth-child(3) a:visited
 
 
 
-/* Specific layout rules for large PC and TV screen */
+/* Specific layout rules for large PC and TV screen below 4k resolution */
 
 @media (min-width: 1200px) and (max-width: 2559px)
 {
@@ -456,5 +456,16 @@ header nav ul li:nth-child(3) a:visited
         border: 1px solid #0065fc;
         border-top-right-radius: 0.7rem;
         border-bottom-right-radius: 0.7rem;
+    }
+}
+
+/* Specific layout rules for large PC and TV screen above 4k resolution */
+
+@media (min-width: 2560px) and (max-width: 3860px)
+{
+    #main_wrapper
+    {    
+        max-width: 2500px;
+        margin: auto;
     }
 }
