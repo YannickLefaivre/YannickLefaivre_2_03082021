@@ -930,6 +930,9 @@ header nav ul li:nth-child(3) a:visited
     #infos_on_research_result
     {
         width: 50%;
+
+        font-size: 0.9em;
+
     }
 }
 
