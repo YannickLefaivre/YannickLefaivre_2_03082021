@@ -811,12 +811,12 @@ header nav ul li:nth-child(3) a:visited
 
     #search h1
     {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     #search h3
     {
-        font-size: 0.9em;
+        font-size: 0.96em;
         font-weight: normal;
 
         margin-top: -0.4em;
@@ -837,7 +837,7 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_form i
     {
-        flex: 0.15;
+        flex: 0.13;
 
         display: flex;
         flex-direction: column;
@@ -859,7 +859,7 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_field
     {
-        flex: 0.5;
+        flex: 0.7;
 
         width: 28%;
         height: 2.5em;
@@ -900,7 +900,7 @@ header nav ul li:nth-child(3) a:visited
         width: 75%;
         height: 126px;
 
-        margin: 0.16em 0;
+        margin: 0.7em 0;
 
         display: flex;
         flex-flow: row wrap;
