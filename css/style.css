@@ -768,7 +768,7 @@ header nav ul li:nth-child(3) a:visited
 
     header nav ul
     {
-        width: 45%;
+        width: 40%;
         height: 87px;
 
         display: flex;
@@ -778,14 +778,14 @@ header nav ul li:nth-child(3) a:visited
 
     header nav ul li
     {
-        padding: 2em 1.5em 1.5em 1.5em;
+        padding: 2em 1.7em 1.5em 1.7em;
     }
 
     header nav ul li a
     {
-        font-size: 0.9rem;
+        font-size: 1rem;
 
-        padding: 2em 1.5em 1.5em 1.5em;
+        padding: 1.8em 1.7em 1.5em 1.7em;
     }
     
     header nav ul li a:hover
