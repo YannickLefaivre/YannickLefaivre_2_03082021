@@ -733,6 +733,141 @@ header nav ul li:nth-child(3) a:visited
         border-top-right-radius: 0.7rem;
         border-bottom-right-radius: 0.7rem;
     }
+
+
+    /* Filters section */
+    
+    #filters
+    {
+        width: 75%;
+        height: 120px;
+
+        margin: 0.7em 0;
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: space-between;
+    }
+
+    #filters h2
+    {
+        font-size: 1em;
+
+        width: 10%;
+    }
+    
+    #filters_list
+    {
+        width: 90%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        margin-left: -1.5em;
+    }
+
+    .filters
+    {
+        height: 2.5rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+        border: 2px solid #d9d9d9;
+        border-radius: 150px;
+
+        z-index: 1;
+    }
+
+    .filters i
+    {
+        width: 2.5rem;
+        height: 2.5rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        margin-left: -0.7em;
+
+        font-size: 1rem;
+
+        background-color: #deebff;
+        color: #0065fc;
+
+        border-radius: 50%;
+
+        z-index: 2;
+    }
+
+    .filters a
+    {
+        font-size: 0.8em;
+    }
+
+    .filters:nth-child(1)
+    {
+        width: 8rem;
+    }
+
+    .filters:nth-child(2)
+    {
+        width: 7rem;
+    }
+    
+    .filters:nth-child(3)
+    {
+        width: 8rem;
+    }
+    
+    .filters:nth-child(4)
+    {
+        width: 10rem;
+    }
+
+    #infos_on_research_result
+    {
+        width: 47%;
+
+        margin: 0.5em 0;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #infos_on_research_result p
+    {
+        width: 100%;
+
+        font-size: 0.7em;
+
+        margin-left: 0.7em;
+    }
+
+    #infos_on_research_result i
+    {
+        width: 1.5rem;
+        height: 1.5rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 0.7rem;
+
+        color: #0065fc;
+
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+    }
 }
 
 
