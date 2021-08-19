@@ -1032,7 +1032,7 @@ header nav ul li:nth-child(3) a:visited
 {
     #main_wrapper
     {    
-        max-width: 2500px;
+        max-width: 2350px;
         margin: auto;
     }
 
@@ -1064,24 +1064,24 @@ header nav ul li:nth-child(3) a:visited
 
     header nav ul
     {
-        width: 45%;
+        width: 35%;
         height: 87px;
 
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     header nav ul li
     {
-        padding: 2em 1.5em 1.5em 1.5em;
+        padding: 2em 1.8em 1.5em 1.8em;
     }
 
     header nav ul li a
     {
         font-size: 1.8em;
 
-        padding: 2.1em 1.5em 1.5em 1.5em;
+        padding: 2.1em 1.8em 1.5em 1.8em;
     }
     
     header nav ul li a:hover
@@ -1107,12 +1107,12 @@ header nav ul li:nth-child(3) a:visited
 
     #search h1
     {
-        font-size: 2.5em;
+        font-size: 2.25em;
     }
 
     #search h3
     {
-        font-size: 1.8em;
+        font-size: 1.65em;
         font-weight: normal;
 
         margin-top: -0.6em;
@@ -1131,9 +1131,9 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_form i
     {
-        flex: 0.08;
+        flex: 0.07;
 
-        font-size: 2rem;
+        font-size: 1.9rem;
 
         display: flex;
         flex-direction: column;
@@ -1143,8 +1143,8 @@ header nav ul li:nth-child(3) a:visited
 
     .fa-map-marker-alt
     {
-        width: 2.5em;
-        height: 2.5em;
+        width: 5rem;
+        height: 5.3rem;
 
         background-color: #f2f2f2;
 
@@ -1155,13 +1155,13 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_field
     {
-        flex: 0.31;
+        flex: 0.32;
 
-        height: 2.5em;
+        height: 2.7em;
 
         padding-left: 0.8em;
 
-        font-size: 2em;
+        font-size: 1.9em;
         font-weight: bolder;
 
         text-align: left;
@@ -1174,9 +1174,9 @@ header nav ul li:nth-child(3) a:visited
     {
         flex: 0.18;
 
-        height: 2.5em;
+        height: 2.7em;
 
-        font-size: 2em;
+        font-size: 1.9em;
         font-weight: bold;
 
         color: white;
