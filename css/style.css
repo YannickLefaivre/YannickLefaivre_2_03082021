@@ -819,18 +819,20 @@ header nav ul li:nth-child(3) a:visited
         font-size: 0.9em;
         font-weight: normal;
 
-        margin-top: -0.6em;
+        margin-top: -0.4em;
     }
 
     #location_search_form
     {
-        width: 50%;
-        height: 44px;
+        width: 56%;
+        height: 70px;
 
         display: flex;
         flex-direction: row;
         justify-content: left;
         align-items: center;
+
+        margin-top: -0.6em;
     }
 
     #location_search_form i
@@ -857,7 +859,7 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_field
     {
-        flex: 0.6;
+        flex: 0.5;
 
         width: 28%;
         height: 2.5em;
