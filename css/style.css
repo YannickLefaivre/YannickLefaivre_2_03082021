@@ -598,19 +598,19 @@ header nav ul li:nth-child(3) a:visited
 
     #logo
     {
-        width: 9%;
+        width: 10%;
     }
 
     #logo img
     {
-        width: 4.8em;
-        height: 46px;
+        width: 100px;
+        height: 100px;
     }
 
     header nav ul
     {
-        width: 55%;
-        height: 46px;
+        width: 48%;
+        height: 90px;
 
         display: flex;
         flex-direction: row;
@@ -625,9 +625,9 @@ header nav ul li:nth-child(3) a:visited
 
     header nav ul li a
     {
-        font-size: 0.8em;
+        font-size: 0.9em;
 
-        padding: 3em 1.5em 1.5em 1.5em;
+        padding: 2.5em 1.5em 1.5em 1.5em;
     }
     
     header nav ul li a:hover
@@ -640,8 +640,8 @@ header nav ul li:nth-child(3) a:visited
 
     #search
     {
-        width: 44%;
-        height: 110px;
+        width: 50%;
+        height: 130px;
 
         display: flex;
         flex-direction: column;
@@ -658,7 +658,7 @@ header nav ul li:nth-child(3) a:visited
 
     #search h3
     {
-        font-size: 0.7em;
+        font-size: 0.73em;
         font-weight: normal;
 
         margin-top: -0.4em;
@@ -681,7 +681,7 @@ header nav ul li:nth-child(3) a:visited
     {
         flex: 0.1;
 
-        font-size: 0.8rem;
+        font-size: 0.9rem;
 
         display: flex;
         flex-direction: column;
@@ -691,7 +691,7 @@ header nav ul li:nth-child(3) a:visited
 
     .fa-map-marker-alt
     {
-        height: 2.5em;
+        height: 2em;
 
         background-color: #f2f2f2;
 
@@ -708,7 +708,7 @@ header nav ul li:nth-child(3) a:visited
 
         padding-left: 0.8em;
 
-        font-size: 0.8em;
+        font-size: 0.9em;
         font-weight: bolder;
 
         text-align: left;
@@ -719,11 +719,11 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_button
     {
-        flex: 0.27;
+        flex: 0.3;
 
         height: 2rem;
 
-        font-size: 0.8em;
+        font-size: 0.9em;
         font-weight: bold;
 
         color: white;
