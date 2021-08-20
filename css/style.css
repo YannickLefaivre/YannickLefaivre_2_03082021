@@ -69,7 +69,7 @@ header nav ul li:nth-child(3) a:visited
 
 /* Specific layout rules for medium and large mobile */
 
-@media (min-width: 321px) and (max-width: 765px)
+@media (min-width: 0) and (max-width: 768px)
 {
     #main_wrapper
     {    
