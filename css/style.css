@@ -67,7 +67,7 @@ header nav ul li:nth-child(3) a:visited
 }
 
 
-/* Specific layout rules for medium and large mobile */
+/* Specific layout rules for mobile */
 
 @media (min-width: 0) and (max-width: 768px)
 {
@@ -233,15 +233,6 @@ header nav ul li:nth-child(3) a:visited
         border-radius: 30%;
     }
 }
-
-
-/* Specific layout rules for mobile of all screen size */
-
-@media (min-width: 0) and (max-width: 765px)
-{
-    
-}
-
 
 
 /* Specific layout rules for tablette */
@@ -720,7 +711,7 @@ header nav ul li:nth-child(3) a:visited
     }
 }
 
-/* CSS rules specific to PC and TV of all size screen */
+/* CSS rules specific to PC and TV of all screen size */
 
 @media (min-width: 992px)
 {
