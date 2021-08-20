@@ -89,6 +89,11 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: row;
     }
 
+    #logo
+    {
+        margin-top: 0.5em
+    }
+
     header nav ul
     {
         display: flex;
@@ -121,6 +126,14 @@ header nav ul li:nth-child(3) a:visited
         order: -1;
 
         margin-left: 14em;
+    }
+
+
+    header nav ul li:nth-child(1) a:hover, header nav ul li:nth-child(2) a:hover
+    {
+        padding-bottom: 1em;
+
+        border-bottom: 2px solid #0065fc;
     }
 
 
@@ -226,17 +239,7 @@ header nav ul li:nth-child(3) a:visited
 
 @media (min-width: 0) and (max-width: 765px)
 {
-    #logo
-    {
-        margin-top: 0.5em
-    }
-
-    header nav ul li:nth-child(1) a:hover, header nav ul li:nth-child(2) a:hover
-    {
-        padding-bottom: 1em;
-
-        border-bottom: 2px solid #0065fc;
-    }
+    
 }
 
 
