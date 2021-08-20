@@ -433,7 +433,7 @@ header nav ul li:nth-child(3) a:visited
 
 /* Specific layout rules for large PC and TV screen below 4k resolution */
 
-@media (min-width: 1200px) and (max-width: 2559px)
+@media (min-width: 1200px) and (max-width: 2560px)
 {
     #main_wrapper
     {    
