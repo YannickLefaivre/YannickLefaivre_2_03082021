@@ -73,7 +73,7 @@ header nav ul li:nth-child(3) a:visited
 {
     #main_wrapper
     {    
-        max-width: 380px;
+        max-width: 350px;
         margin: auto;
     }
 
@@ -176,7 +176,7 @@ header nav ul li:nth-child(3) a:visited
         justify-content: center;
         align-items: center;
 
-        margin-top: -0.2em;
+        margin-top: 0.4em;
     }
 
     #location_search_form i
@@ -232,6 +232,142 @@ header nav ul li:nth-child(3) a:visited
 
         border-radius: 30%;
     }
+
+        /* Filters section */
+    
+        #filters
+        {
+            width: 100%;
+            height: 278px;
+    
+            margin: 2.5em 0;
+    
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: center;
+            align-content: space-between;
+        }
+    
+        #filters h2
+        {
+            font-size: 1.3em;
+    
+            width: 17%;
+        }
+        
+        #filters_list
+        {
+            width: 100%;
+            height: 176px;
+    
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: space-between;
+
+            padding: 0 0.5em 0 0;
+        }
+    
+        .filters
+        {
+            height: 3rem;
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+    
+            border: 2px solid #d9d9d9;
+            border-radius: 150px;
+    
+            z-index: 1;
+        }
+    
+        .filters i
+        {
+            width: 3rem;
+            height: 3rem;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            margin-left: -1.1em;
+    
+            font-size: 1rem;
+    
+            background-color: #deebff;
+            color: #0065fc;
+    
+            border-radius: 50%;
+    
+            z-index: 2;
+        }
+    
+        .filters a
+        {
+            font-size: 1em;
+        }
+    
+        .filters:nth-child(1)
+        {
+            width: 10rem;
+        }
+    
+        .filters:nth-child(2)
+        {
+            width: 8rem;
+        }
+        
+        .filters:nth-child(3)
+        {
+            width: 10rem;
+        }
+        
+        .filters:nth-child(4)
+        {
+            width: 14rem;
+        }
+    
+        #infos_on_research_result
+        {
+            width: 100%;
+    
+            margin: 0.5em 0;
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: baseline;
+        }
+    
+        #infos_on_research_result p
+        {
+            width: 90%;
+    
+            font-size: 1em;
+    
+            margin-left: 0.6em;
+        }
+    
+        #infos_on_research_result i
+        {
+            width: 1.7rem;
+            height: 1.7rem;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            font-size: 0.8rem;
+    
+            color: #0065fc;
+    
+            border: 1px solid #d9d9d9;
+            border-radius: 50%;
+        }
 }
 
 
