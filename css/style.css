@@ -722,7 +722,12 @@ header nav ul li:nth-child(3) a:visited
 
     #logo 
     {
-        width: 11%;
+        width: 10%;
+    }
+
+    #logo img
+    {
+        height: 2.5em;
     }
 
     header nav ul 
@@ -743,7 +748,7 @@ header nav ul li:nth-child(3) a:visited
 
     header nav ul li a
     {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
 
         padding: 2.2em 1.5em 1.5em 1.5em;
     }
@@ -756,9 +761,9 @@ header nav ul li:nth-child(3) a:visited
 
     /* Section Search */
 
-    #search
+    #search 
     {
-        width: 50%;
+        width: 60%;
         height: 138px;
 
         display: flex;
@@ -769,14 +774,14 @@ header nav ul li:nth-child(3) a:visited
         margin-top: 0.8em;
     }
 
-    #search h1
+    #search h1 
     {
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
-    #search h3
+    #search h3 
     {
-        font-size: 0.96em;
+        font-size: 0.73em;
         font-weight: normal;
 
         margin-top: -0.4em;
@@ -784,7 +789,7 @@ header nav ul li:nth-child(3) a:visited
 
     #location_search_form
     {
-        width: 56%;
+        width: 63%;
         height: 70px;
 
         display: flex;
