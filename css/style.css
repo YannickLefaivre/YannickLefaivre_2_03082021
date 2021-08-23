@@ -729,7 +729,7 @@ header nav ul li:nth-child(3) a:visited
     {
         width: 87%;
         height: 87px;
-        
+
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -745,12 +745,12 @@ header nav ul li:nth-child(3) a:visited
     {
         font-size: 0.9rem;
 
-        padding: 2em 1.5em 1.5em 1.5em;
+        padding: 2.2em 1.5em 1.5em 1.5em;
     }
     
     header nav ul li a:hover
     {
-        border-top: 2px solid #0065fc;
+        border-top: 2.5px solid #0065fc;
     }
 
 
