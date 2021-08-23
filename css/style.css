@@ -67,6 +67,16 @@ header nav ul li:nth-child(3) a:visited
 }
 
 
+/* Specific layout rules for Small mobile */
+
+@media (max-width: 320)
+{
+    #main_wrapper
+    {
+        margin: auto;
+    }
+}
+
 /* Specific layout rules for mobile */
 
 @media (min-width: 0) and (max-width: 765px)
@@ -558,7 +568,7 @@ header nav ul li:nth-child(3) a:visited
         width: 90%;
 
         padding: 0 0.5em 0 0em;
-        
+
         display: flex;
         flex-direction: row;
         justify-content: space-between;
