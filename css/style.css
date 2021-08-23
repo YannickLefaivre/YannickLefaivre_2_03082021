@@ -69,17 +69,18 @@ header nav ul li:nth-child(3) a:visited
 
 /* Specific layout rules for Small mobile */
 
-@media (max-width: 320)
+@media (max-width: 320px)
 {
     #main_wrapper
     {
+        max-width: 180px;
         margin: auto;
     }
 }
 
 /* Specific layout rules for mobile */
 
-@media (min-width: 0) and (max-width: 765px)
+@media (min-width: 321px) and (max-width: 765px)
 {
     #main_wrapper
     {    
@@ -383,7 +384,7 @@ header nav ul li:nth-child(3) a:visited
 
 /* Specific layout rules for tablette */
 
-@media (min-width: 768px) and (max-width: 992px)
+@media (min-width: 768px) and (max-width: 991px)
 {
     #main_wrapper
     {    
@@ -680,7 +681,7 @@ header nav ul li:nth-child(3) a:visited
 
 /* Specific layout rules for mobiles and tablettes */
 
-@media (min-width: 0) and (max-width: 992px) 
+@media (min-width: 0) and (max-width: 991px) 
 {
     #location_search_button
     {
