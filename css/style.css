@@ -1,4 +1,26 @@
-/* Global layout rules */
+/* ---- Custom classes ---- */
+
+/* Color */
+
+.reservia-blue
+{
+    color: #0065fc;
+}
+
+.light-gray
+{
+    background-color: #f2f2f2;
+}
+
+
+.darkish-light-gray
+{
+    color: #d9d9d9;
+}
+
+
+
+/* ---- Global layout rules ---- */
 
 *
 {
@@ -1644,8 +1666,6 @@ header nav ul li:nth-child(3) a:visited
 
         border-radius: 1.5rem;
 
-        background-color: #f2f2f2;
-
         display: flex;
         flex-direction: column;
     }
@@ -1725,7 +1745,7 @@ header nav ul li:nth-child(3) a:visited
         margin-bottom: 5px;
     }
 
-    .search_result_lodging > .lodging_row article > a > .lodging-infos > .lodging_ranking 
+    .search_result_lodging > .lodging_row > article > a > .lodging-infos > .lodging_ranking 
     {
         font-size: 0.7rem;
 
