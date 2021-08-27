@@ -29,6 +29,11 @@
     box-sizing: border-box;
 }
 
+html
+{
+    font-size: 14px;
+}
+
 body
 {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
@@ -42,11 +47,6 @@ h1, h2
     font-weight: bold;
 
     color: black;
-}
-
-h4
-{
-    font-weight: normal;
 }
 
 p
@@ -1326,7 +1326,10 @@ header nav ul li:nth-child(3) a:visited
     #main_wrapper
     {    
         max-width: 1347px;
+
         margin: auto;
+        padding-left: 0.5%; 
+        padding-right: 0.5x;
     }
 
 
@@ -1617,52 +1620,58 @@ header nav ul li:nth-child(3) a:visited
 
     /* CSS styles common to the Search result and Trending result sub-section */
 
-    .search_result_lodging, .trending_result
-    {
-        background-color: #f2f2f2;
-    }
-
-    .search_result_lodging h2, .trending_result h2
-    {
-        font-size: 1.3em;
-
-        margin-bottom: 29px;
-    }
-
-    .trending_result .lodging_row article a h3 
-    {
-        font-size: 0.8em;
-        font-weight: bold;
-
-        margin-top: 0px;
-        margin-left: 15px;
-    }
-
-    .search_result_lodging .lodging_row article a h4, .trending_result .lodging_row article a h4 
-    {
-        font-size: 0.7em;
-    }
-
-
-    /* Search result sub-section */
-
     #lodging
     {
         width: 100%;
-        height: 635px;
+        height: 45.35rem;
 
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
+    #lodging h2, #lodging .fa-chart-line
+    {
+        font-size: 1.3rem;
+    }
+
+    #lodging article
+    {
+        background-color: white;
+
+        box-shadow: 0 0.07em 0.92em 0.21em #d9d9d9;
+
+        border-radius: 1rem;
+    }
+
+    #lodging .lodging-infos h3
+    {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    #lodging .lodging-infos p 
+    {
+        font-size: 1rem;
+        font-weight: normal;
+
+    }
+
+    #lodging .lodging-infos .lodging_ranking 
+    {
+        font-size: 0.75rem;
+    }
+
+
+    /* Search result sub-section */
+
     .search_result_lodging
     {
         width: 66.66%;
         height: inherit;
 
-        margin-right: 46px;
-        padding: 44px 36px 48px 36px;
+        margin-right: 1.64em;
+        padding: 3.14em 2.57em 3.42em 2.57em;
 
         border-radius: 1.5rem;
 
@@ -1670,13 +1679,18 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
+    .search_result_lodging > h2
+    {
+        margin-bottom: 29px;
+    }
+
     .search_result_lodging > .lodging_row
     {
         width: 100%;
-        height: 205px;
+        height: 14.64rem;
 
-        margin-left: 5px;
-        margin-bottom: 29px;
+        margin-left: 0.35em;
+        margin-bottom: 2.07em;
 
         display: flex;
         flex-direction: row;
@@ -1687,15 +1701,9 @@ header nav ul li:nth-child(3) a:visited
     {
         width: 31%;
         height: inherit;
-
-        background-color: white;
-
-        box-shadow: 0 1px 13px 3px #d9d9d9;
-
-        border-radius: 1rem;
     }
 
-    .search_result_lodging > .lodging_row  > article a
+    .search_result_lodging > .lodging_row  > article > a
     {
         width: 95%;
         height: inherit;
@@ -1709,10 +1717,10 @@ header nav ul li:nth-child(3) a:visited
     .search_result_lodging > .lodging_row > article > a > img
     {
         width: 100%;
-        height: 114px;
+        height: 8.14rem;
 
-        margin-top: 6px;
-        margin-bottom: 9px;
+        margin-top: 0.42em;
+        margin-bottom: 0.64em;
 
         border-radius: 1em 1em 0 0;
 
@@ -1725,40 +1733,18 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > .lodging_row > article > a > .lodging-infos > h3
+    .search_result_lodging .lodging-infos h3, .search_result_lodging .lodging-infos p, .search_result_lodging .lodging-infos .lodging_ranking
     {
-        font-size: 0.8em;
-        font-weight: bold;
-
-        margin-top: 0px;
-        margin-left: 10px;
-        margin-bottom: 5px;
-    }
-
-    .search_result_lodging > .lodging_row > article > a > .lodging-infos > h4
-    {
-        font-size: 0.7em;
-        font-weight: normal;
-
-        margin-top: 0px;
-        margin-left: 10px;
-        margin-bottom: 5px;
-    }
-
-    .search_result_lodging > .lodging_row > article > a > .lodging-infos > .lodging_ranking 
-    {
-        font-size: 0.7rem;
-
-        margin-top: 0px;
-        margin-left: 10px;
-        margin-bottom: 5px;
+        margin-top: 0;
+        margin-left: 0.71em;
+        margin-bottom: 0.35em;
     }
 
     .search_result_lodging > .display-more
     {
-        margin-bottom: 48px;
+        margin-bottom: 3.42em;
 
-        font-size: 0.9em;
+        font-size: 1rem;
         font-weight: bold;
     }
 
@@ -1767,31 +1753,106 @@ header nav ul li:nth-child(3) a:visited
 
     .trending_result
     {
-        flex: 1;
+        width: 33.33%;
+        height: inherit;
+
+        margin-left: 1.64em;
+        padding: 3.14em 1.92em 2.28em 2.35em;;
+        
+        border-radius: 1.5rem;
 
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-
-        padding: 44px 30px 38px 30px;
-
-        border-radius: 3rem;
     }
 
-    .trending_result .title_plus_icon
+    .trending_result > .title_plus_icon
     {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
+
+        margin-bottom: 1.08rem;
     }
 
-    .trending_result article a img
+    .trending_result > .title_plus_icon > i
     {
-        width: 10em;
-        height: 6em;
-        align-self: center;
-        margin: 0.4em 0.1em 0 0.1em;
-        border-radius: 1em 1em 0 0;
+        font-size: 1.3rem;
+    }
+
+    .trending_result > article
+    {
+        width: 100%;
+        height: 10.1rem;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .trending_result > article:nth-child(1)
+    {
+        margin-top: 1.08rem;
+        margin-bottom: 1.18rem;
+    }
+
+    .trending_result > article:nth-child(2)
+    {
+        margin: 1.18rem 0;
+    }
+
+    .trending_result > article:nth-child(3)
+    {
+        margin-top: 1.18rem;
+        margin-bottom: 2.28rem;
+    }
+
+    .trending_result > article > a
+    {
+        width: 100%;
+        height: 95%;
+
+        margin: auto;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .trending_result > article > a > img
+    {
+        width: 9.43rem;
+        height: 100%;
+
+        margin-right: 0.75rem;
+        margin-left: 0.30rem;
+
+        border-top-left-radius: 1em;
+        border-bottom-left-radius:  1em;
+    }
+
+    .trending_result > article > a > .lodging-infos
+    {
+        width: 50%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        margin-left: 0.75rem;
+    }
+
+    .trending_result > article > a > .lodging-infos > h3
+    {
+        margin-top: 1rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .trending_result > article > a > .lodging-infos > p
+    {
+        margin-top: 0.25rem;
+    }
+
+    .trending_result > article > a > .lodging-infos > .lodging_ranking
+    {
+        margin: auto 0;
     }
 }
 
