@@ -757,7 +757,8 @@ header nav ul li:nth-child(3) a:visited
     }
 }
 
-/* Specific layout rules for mobile */
+
+/* Specific layout rules for mobile L. and M.*/
 
 @media (min-width: 320px) and (max-width: 765px)
 {
@@ -1406,6 +1407,63 @@ header nav ul li:nth-child(3) a:visited
     }
 }
 
+/* ---- Rules for all mobile ---- */
+
+@media (min-width: 0) and (max-width: 765px)
+{
+    /* --- Footer --- */
+
+    footer 
+    {
+        width: 100%;
+        height: 36rem;
+
+        margin-top: 3.35em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    footer h3 
+    {
+        margin-top: 2.5em;
+        margin-bottom: 0.92em;
+    }
+
+    footer div
+    {
+        width: 90%;
+        height: 14rem;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.67em;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer div ul 
+    {
+        margin-top: 0.92em;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    footer div ul li 
+    {
+        font-size: 0.9rem;
+
+        margin-bottom: 0.64em;
+    }
+}
+
 
 /* Specific layout rules for tablette */
 
@@ -1945,7 +2003,7 @@ header nav ul li:nth-child(3) a:visited
     #activities 
     {
         width: 100%;
-        height: 63.42rem;
+        height: 71rem;
 
         margin-top: 1.5em;
 
@@ -2112,6 +2170,60 @@ header nav ul li:nth-child(3) a:visited
         background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
 
         height: 10.85rem;
+    }
+
+    /* --- Footer --- */
+
+    footer 
+    {
+        width: 100%;
+        height: 15.71rem;
+
+        margin-top: 3.5em;
+        padding: 0 0.57em;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    footer div 
+    {
+        width: 25%;
+        height: 11.71rem;
+        
+        margin: 2em auto;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer h3 
+    {
+        margin-bottom: 0.64em;
+        font-size: 1rem;
+    }
+
+    footer div ul 
+    {
+        margin-top: 0.92em;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    footer div ul li 
+    {
+        margin-bottom: 0.64em;
+    }
+
+    footer div ul li a 
+    {
+        font-size: 0.9rem;
     }
 }
 
@@ -2675,7 +2787,7 @@ header nav ul li:nth-child(3) a:visited
     #activities 
     {
         width: 100%;
-        height: 63.42rem;
+        height: 36.42rem;
 
         margin-top: 1.5em;
 
@@ -2851,6 +2963,61 @@ header nav ul li:nth-child(3) a:visited
         background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
 
         height: 10.85rem;
+    }
+    
+
+    /* --- Footer --- */
+
+    footer 
+    {
+        width: 100%;
+        height: 15.71rem;
+
+        margin-top: 3.5em;
+        padding: 0 0.57em;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    footer div 
+    {
+        width: 30%;
+        height: 11.71rem;
+
+        margin: 2em auto;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer h3 
+    {
+        margin-bottom: 0.64em;
+        font-size: 1rem;
+    }
+
+    footer div ul 
+    {
+        margin-top: 0.92em;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    footer div ul li 
+    {
+        margin-bottom: 0.64em;
+    }
+
+    footer div ul li a 
+    {
+        font-size: 0.7rem;
     }
 }
 
@@ -3402,7 +3569,7 @@ header nav ul li:nth-child(3) a:visited
     #activities 
     {
         width: 100%;
-        height: 63.42rem;
+        height: 36.42rem;
 
         margin-top: 1.5em;
 
@@ -3578,6 +3745,61 @@ header nav ul li:nth-child(3) a:visited
         background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
 
         height: 10.85rem;
+    }
+    
+
+    /* --- Footer --- */
+
+    footer 
+    {
+        width: 100%;
+        height: 15.71rem;
+
+        margin-top: 3.5em;
+        padding: 0 0.57em;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    footer div 
+    {
+        width: 30%;
+        height: 11.71rem;
+
+        margin: 2em auto;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer h3 
+    {
+        margin-bottom: 0.64em;
+        font-size: 1.2rem;
+    }
+
+    footer div ul 
+    {
+        margin-top: 0.92em;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    footer div ul li 
+    {
+        margin-bottom: 0.64em;
+    }
+
+    footer div ul li a 
+    {
+        font-size: 1rem;
     }
 }
 
