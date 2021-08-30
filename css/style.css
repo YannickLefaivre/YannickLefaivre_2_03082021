@@ -42,7 +42,7 @@ body
     color: black;
 }
 
-h1, h2
+h1, h2, h3
 {
     font-weight: bold;
 
@@ -70,6 +70,16 @@ header nav ul li:nth-child(3) a, #filters a
 {
     font-weight: bold;
 }
+
+article
+{
+    background-color: white;
+
+    box-shadow: 0 0.07em 0.92em 0.21em #d9d9d9;
+
+    border-radius: 1rem;
+}
+
 
 
 /* Header */
@@ -100,6 +110,8 @@ header nav ul li:nth-child(3) a:visited
 }
 
 
+
+/* ---- Specific rules for small Mobile ---- */
 @media (max-width: 280px)
 {
     #main_wrapper
@@ -406,10 +418,9 @@ header nav ul li:nth-child(3) a:visited
 
     /* CSS styles common to the Search result and Trending result sub-section */
 
-    #lodging 
-    {
+    #lodging {
         width: 100%;
-        height: 140rem;
+        height: 134rem;
 
         margin: 1em 0;
 
@@ -457,9 +468,7 @@ header nav ul li:nth-child(3) a:visited
         width: 100%;
         height: 107rem;
 
-        padding: 2em 1.35em 0 1.35em;
-
-        border-radius: 1.5rem;
+        padding: 1.5em 0;
 
         display: flex;
         flex-direction: column;
@@ -527,10 +536,12 @@ header nav ul li:nth-child(3) a:visited
 
     .search_result_lodging > .display-more 
     {
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-weight: bold;
+
         margin-top: 1em;
     }
+    
 
 
     /* Trending result */
@@ -538,11 +549,9 @@ header nav ul li:nth-child(3) a:visited
     .trending_result 
     {
         width: 100%;
-        height: 37rem;
+        height: 36rem;
 
-        padding: 1em 1.35em 2em 1.35em;
-
-        border-radius: 1.5rem;
+        padding: 1em 0;
 
         display: flex;
         flex-direction: column;
@@ -619,6 +628,132 @@ header nav ul li:nth-child(3) a:visited
     .trending_result > article > a > .lodging-infos > .lodging_ranking
     {
         margin: auto 0;
+    }
+
+
+    /* --- Section Activities --- */
+
+
+    /* -- Container -- */
+    
+    #activities 
+    {
+        width: 100%;
+        height: 96.14rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #activities h2 
+    {
+        font-size: 1.45rem;
+    }
+
+    #activities article 
+    {
+        width: 100%;
+        height: 13.5rem;
+        
+        margin: 0;
+    }
+
+    #activities article a 
+    {
+        width: inherit;
+        height: inherit;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #activities article a .activity-picture
+    {
+        width: 100%;
+        height: 9.57rem;
+
+        border-radius: 1em 1em 0 0;
+
+        background-position: center;
+        background-size: cover;
+    }
+
+    #activities article a h3 
+    {
+        width: 90%;
+
+        font-size: 1rem;
+
+        margin: auto;
+    }
+    
+
+    
+    /* - Column - */
+
+    .activities-col 
+    {
+        width: 100%;
+        height: 44.2rem;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+
+
+    /* Sub column 1 */
+
+    .activities-sub-col-one 
+    {
+        width: 100%;
+        height: 13.57rem;
+
+        display: flex;
+    }
+
+    .activities-sub-col-one > .ac-vieux-port > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/vieux-port.jpg") no-repeat;
+    }
+
+    .activities-sub-col-one > .ac-parc-national-des-calanques > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/parc-national-de-calanques.jpg") no-repeat;
+    }
+    
+
+    /* Sub column 2 */
+
+    .activities-sub-col-two 
+    {
+        width: 100%;
+        height: 28.85rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .activities-sub-col-two > .ac-fort-pomegues > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/fort-de-pomegues.jpg") no-repeat;
+    }
+    
+
+    .activities-sub-col-two > .ac-iles-du-frioul > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/iles-du-frioul.jpg") no-repeat;
+    }
+
+    .activities-sub-col-two > .ac-notre-dame-de-la-garde > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/notre-dame-de-la-garde.jpg") no-repeat;
+    }
+    .activities-sub-col-two > .ac-parc-longchamp > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
     }
 }
 
@@ -935,9 +1070,9 @@ header nav ul li:nth-child(3) a:visited
     #lodging 
     {
         width: 100%;
-        height: 140rem;
+        height: 134rem;
 
-        margin: 5em 0;
+        margin-top: 5em;
 
         display: flex;
         flex-direction: column-reverse;
@@ -983,9 +1118,7 @@ header nav ul li:nth-child(3) a:visited
         width: 100%;
         height: 107rem;
 
-        padding: 2em 1.35em 0 1.35em;
-
-        border-radius: 1.5rem;
+        padding: 1.5em 0;
 
         display: flex;
         flex-direction: column;
@@ -1053,7 +1186,7 @@ header nav ul li:nth-child(3) a:visited
 
     .search_result_lodging > .display-more 
     {
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: bold;
         margin-top: 1em;
     }
@@ -1066,13 +1199,12 @@ header nav ul li:nth-child(3) a:visited
         width: 100%;
         height: 37rem;
 
-        padding: 1em 1.35em 2em 1.35em;
-
-        border-radius: 1.5rem;
+        padding: 1em 0 2em 0em;
 
         display: flex;
         flex-direction: column;
     }
+    
 
     .trending_result > .title_plus_icon
     {
@@ -1145,6 +1277,132 @@ header nav ul li:nth-child(3) a:visited
     .trending_result > article > a > .lodging-infos > .lodging_ranking
     {
         margin: auto 0;
+    }
+
+
+    /* --- Section Activities --- */
+
+
+    /* -- Container -- */
+    
+    #activities 
+    {
+        width: 100%;
+        height: 96.14rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #activities h2 
+    {
+        font-size: 1.45rem;
+    }
+
+    #activities article 
+    {
+        width: 100%;
+        height: 13.5rem;
+        
+        margin: 0;
+    }
+
+    #activities article a 
+    {
+        width: inherit;
+        height: inherit;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #activities article a .activity-picture
+    {
+        width: 100%;
+        height: 9.57rem;
+
+        border-radius: 1em 1em 0 0;
+
+        background-position: center;
+        background-size: cover;
+    }
+
+    #activities article a h3 
+    {
+        width: 90%;
+
+        font-size: 1rem;
+
+        margin: auto;
+    }
+    
+
+    
+    /* - Column - */
+
+    .activities-col 
+    {
+        width: 100%;
+        height: 44.2rem;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+
+
+    /* Sub column 1 */
+
+    .activities-sub-col-one 
+    {
+        width: 100%;
+        height: 13.57rem;
+
+        display: flex;
+    }
+
+    .activities-sub-col-one > .ac-vieux-port > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/vieux-port.jpg") no-repeat;
+    }
+
+    .activities-sub-col-one > .ac-parc-national-des-calanques > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/parc-national-de-calanques.jpg") no-repeat;
+    }
+    
+
+    /* Sub column 2 */
+
+    .activities-sub-col-two 
+    {
+        width: 100%;
+        height: 28.85rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .activities-sub-col-two > .ac-fort-pomegues > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/fort-de-pomegues.jpg") no-repeat;
+    }
+    
+
+    .activities-sub-col-two > .ac-iles-du-frioul > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/iles-du-frioul.jpg") no-repeat;
+    }
+
+    .activities-sub-col-two > .ac-notre-dame-de-la-garde > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/notre-dame-de-la-garde.jpg") no-repeat;
+    }
+    .activities-sub-col-two > .ac-parc-longchamp > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
     }
 }
 
@@ -1676,6 +1934,184 @@ header nav ul li:nth-child(3) a:visited
     .trending_result > article > a > .lodging-infos > .lodging_ranking 
     {
         margin-top: auto;
+    }
+
+
+    /* --- Section Activities --- */
+
+
+    /* -- Container -- */
+    
+    #activities 
+    {
+        width: 100%;
+        height: 63.42rem;
+
+        margin-top: 1.5em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #activities h2 
+    {
+        font-size: 1.2rem;
+
+        margin-bottom: 2em;
+    }
+
+    #activities .activities-col:first-of-type
+    {
+        margin-bottom: 2.92em;
+    }
+
+    #activities .activities-col:last-of-type
+    {
+        margin-top: 2.92em;
+    }
+
+    #activities article 
+    {
+        width: 100%;
+        
+        margin: 0;
+    }
+
+    #activities article a 
+    {
+        width: inherit;
+        height: inherit;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #activities article a .activity-picture
+    {
+        width: 100%;
+
+        border-radius: 1em 1em 0 0;
+
+        background-position: center;
+        background-size: cover;
+    }
+
+    #activities article a h3 
+    {
+        width: 90%;
+
+        font-size: 1rem;
+
+        margin: auto;
+    }
+    
+
+    
+    /* - Column - */
+
+    .activities-col 
+    {
+        width: 100%;
+        height: 31.71rem;
+
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+
+    /* Sub column 1 */
+
+    .activities-sub-col-one 
+    {
+        width: 50%;
+        height: inherit;
+
+        margin-right: 1.5em;
+    }
+
+    .activities-sub-col-one > article
+    {
+        height: inherit;
+    }
+
+    .activities-sub-col-one > article > a > .activity-picture
+    {
+        height: 27.85rem;
+    }
+
+    .activities-sub-col-one > .ac-vieux-port > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/vieux-port.jpg") no-repeat;
+    }
+
+    .activities-sub-col-one > .ac-parc-national-des-calanques > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/parc-national-de-calanques.jpg") no-repeat;
+    }
+    
+
+    /* Sub column 2 */
+
+    .activities-sub-col-two 
+    {
+        width: 50%;
+        height: inherit;
+
+        margin-left: 1.5em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .activities-sub-col-two > .ac-fort-pomegues
+    {
+        height: 17rem;
+    }
+
+    .activities-sub-col-two > .ac-fort-pomegues > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/fort-de-pomegues.jpg") no-repeat;
+
+        height: 12.92rem;
+    }
+    
+    .activities-sub-col-two > .ac-iles-du-frioul
+    {
+        height: 11.78rem;
+    }
+
+    .activities-sub-col-two > .ac-iles-du-frioul > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/iles-du-frioul.jpg") no-repeat;
+
+        height: 7.92rem;
+    }
+
+    .activities-sub-col-two > .ac-notre-dame-de-la-garde
+    {
+        height: 13.92rem;
+    }
+
+    .activities-sub-col-two > .ac-notre-dame-de-la-garde > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/notre-dame-de-la-garde.jpg") no-repeat;
+
+        height: 9.92rem;
+    }
+
+    .activities-sub-col-two > .ac-parc-longchamp
+    {
+        height: 14.71rem;
+    }
+
+    .activities-sub-col-two > .ac-parc-longchamp > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
+
+        height: 10.85rem;
     }
 }
 
@@ -2228,11 +2664,199 @@ header nav ul li:nth-child(3) a:visited
     {
         margin: auto 0;
     }
+
+    
+
+    /* --- Section Activities --- */
+
+
+    /* -- Container -- */
+    
+    #activities 
+    {
+        width: 100%;
+        height: 63.42rem;
+
+        margin-top: 1.5em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #activities h2 
+    {
+        font-size: 1.2rem;
+
+        margin-bottom: 2em;
+    }
+
+    #activities .activities-col:first-of-type 
+    {
+        margin-right: 1.3em;
+    }
+
+    #activities .activities-col:last-of-type 
+    {
+        margin-left: 1.3em;
+    }
+
+    #activities article 
+    {
+        width: 100%;
+        
+        margin: 0;
+    }
+
+    #activities article a 
+    {
+        width: inherit;
+        height: inherit;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #activities article a .activity-picture
+    {
+        width: 100%;
+
+        border-radius: 1em 1em 0 0;
+
+        background-position: center;
+        background-size: cover;
+    }
+
+    #activities article a h3 
+    {
+        width: 90%;
+
+        font-size: 1rem;
+
+        margin: auto;
+    }
+    
+
+    /* - Row - */
+    .activities_row
+    {
+        width: 100%;
+        height: inherit;
+
+        display: flex;
+        flex-direction: row;
+    }
+    
+    /* - Column - */
+
+    .activities-col 
+    {
+        width: 100%;
+        height: 31.71rem;
+
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+
+    /* Sub column 1 */
+
+    .activities-sub-col-one 
+    {
+        width: 50%;
+        height: inherit;
+
+        margin-right: 1em;
+    }
+
+    .activities-sub-col-one > article
+    {
+        height: inherit;
+    }
+
+    .activities-sub-col-one > article > a > .activity-picture
+    {
+        height: 27.85rem;
+    }
+
+    .activities-sub-col-one > .ac-vieux-port > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/vieux-port.jpg") no-repeat;
+    }
+
+    .activities-sub-col-one > .ac-parc-national-des-calanques > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/parc-national-de-calanques.jpg") no-repeat;
+    }
+    
+
+    /* Sub column 2 */
+
+    .activities-sub-col-two 
+    {
+        width: 50%;
+        height: inherit;
+
+        margin-left: 1em;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .activities-sub-col-two > .ac-fort-pomegues
+    {
+        height: 17rem;
+    }
+
+    .activities-sub-col-two > .ac-fort-pomegues > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/fort-de-pomegues.jpg") no-repeat;
+
+        height: 12.92rem;
+    }
+    
+    .activities-sub-col-two > .ac-iles-du-frioul
+    {
+        height: 11.78rem;
+    }
+
+    .activities-sub-col-two > .ac-iles-du-frioul > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/iles-du-frioul.jpg") no-repeat;
+
+        height: 7.92rem;
+    }
+
+    .activities-sub-col-two > .ac-notre-dame-de-la-garde
+    {
+        height: 13.92rem;
+    }
+
+    .activities-sub-col-two > .ac-notre-dame-de-la-garde > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/notre-dame-de-la-garde.jpg") no-repeat;
+
+        height: 9.92rem;
+    }
+
+    .activities-sub-col-two > .ac-parc-longchamp
+    {
+        height: 14.71rem;
+    }
+
+    .activities-sub-col-two > .ac-parc-longchamp > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
+
+        height: 10.85rem;
+    }
 }
 
 
 
-/* Specific layout rules for large PC and TV screen below 4k resolution */
+/* Specific layout rules for large PC and TV screen */
 
 @media (min-width: 1200px) and (max-width: 2560px)
 {
@@ -2766,6 +3390,194 @@ header nav ul li:nth-child(3) a:visited
     .trending_result > article > a > .lodging-infos > .lodging_ranking
     {
         margin: auto 0;
+    }
+    
+    
+
+    /* --- Section Activities --- */
+
+
+    /* -- Container -- */
+    
+    #activities 
+    {
+        width: 100%;
+        height: 63.42rem;
+
+        margin-top: 1.5em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #activities h2 
+    {
+        font-size: 1.3rem;
+
+        margin-bottom: 2em;
+    }
+
+    #activities .activities-col:first-of-type 
+    {
+        margin-right: 1.46em;
+    }
+
+    #activities .activities-col:last-of-type 
+    {
+        margin-left: 1.46em;
+    }
+
+    #activities article 
+    {
+        width: 100%;
+        
+        margin: 0;
+    }
+
+    #activities article a 
+    {
+        width: inherit;
+        height: inherit;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #activities article a .activity-picture
+    {
+        width: 100%;
+
+        border-radius: 1em 1em 0 0;
+
+        background-position: center;
+        background-size: cover;
+    }
+
+    #activities article a h3 
+    {
+        width: 90%;
+
+        font-size: 1.2rem;
+
+        margin: auto;
+    }
+    
+
+    /* - Row - */
+    .activities_row
+    {
+        width: 100%;
+        height: inherit;
+
+        display: flex;
+        flex-direction: row;
+    }
+    
+    /* - Column - */
+
+    .activities-col 
+    {
+        width: 100%;
+        height: 31.71rem;
+
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+
+    /* Sub column 1 */
+
+    .activities-sub-col-one 
+    {
+        width: 50%;
+        height: inherit;
+
+        margin-right: 1.53em;
+    }
+
+    .activities-sub-col-one > article
+    {
+        height: inherit;
+    }
+
+    .activities-sub-col-one > article > a > .activity-picture
+    {
+        height: 27.85rem;
+    }
+
+    .activities-sub-col-one > .ac-vieux-port > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/vieux-port.jpg") no-repeat;
+    }
+
+    .activities-sub-col-one > .ac-parc-national-des-calanques > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/parc-national-de-calanques.jpg") no-repeat;
+    }
+    
+
+    /* Sub column 2 */
+
+    .activities-sub-col-two 
+    {
+        width: 50%;
+        height: inherit;
+
+        margin-left: 1.53em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .activities-sub-col-two > .ac-fort-pomegues
+    {
+        height: 17rem;
+    }
+
+    .activities-sub-col-two > .ac-fort-pomegues > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/fort-de-pomegues.jpg") no-repeat;
+
+        height: 12.92rem;
+    }
+    
+    .activities-sub-col-two > .ac-iles-du-frioul
+    {
+        height: 11.78rem;
+    }
+
+    .activities-sub-col-two > .ac-iles-du-frioul > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/iles-du-frioul.jpg") no-repeat;
+
+        height: 7.92rem;
+    }
+
+    .activities-sub-col-two > .ac-notre-dame-de-la-garde
+    {
+        height: 13.92rem;
+    }
+
+    .activities-sub-col-two > .ac-notre-dame-de-la-garde > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/notre-dame-de-la-garde.jpg") no-repeat;
+
+        height: 9.92rem;
+    }
+
+    .activities-sub-col-two > .ac-parc-longchamp
+    {
+        height: 14.71rem;
+    }
+
+    .activities-sub-col-two > .ac-parc-longchamp > a > .activity-picture
+    {
+        background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
+
+        height: 10.85rem;
     }
 }
 
