@@ -110,6 +110,19 @@ header nav ul li:nth-child(3) a:visited
 }
 
 
+/* ---- Filters ---- */
+
+#filters_list a:hover
+{
+    color: #0065fc;
+}
+
+.filters:hover
+{
+    border-color: #deebff;
+}
+
+
 
 /* ---- Specific rules for small Mobile ---- */
 @media (max-width: 280px)
