@@ -3059,7 +3059,7 @@ header nav ul li:nth-child(3) a:visited
     header nav
     {
         width: 100%;
-        height: 87px;
+        height: 6.21rem; /* <-- 87px / 14px */
 
         display: flex;
         flex-direction: row;
@@ -3072,14 +3072,14 @@ header nav ul li:nth-child(3) a:visited
         width: 7%;
     }
 
-    header nav ul
+    header nav ul 
     {
-        width: 45%;
-        height: 87px;
+        width: 37%;
+        height: inherit;
 
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     header nav ul li
@@ -3089,59 +3089,64 @@ header nav ul li:nth-child(3) a:visited
 
     header nav ul li a 
     {
-        font-size: 0.9rem;
-        
-        padding: 2.1em 1.5em 1.5em 1.5em;
+        font-size: 1rem;
+
+        padding: 1.8em 1.5em 1.5em 1.5em;
     }
+    
     
     header nav ul li a:hover
     {
-        border-top: 2px solid #0065fc;
+        border-top: 0.14rem /* <-- 2px / 14px */ solid #0065fc;
     }
 
 
     /* Section Search */
 
-    #search
+    #search 
     {
-        width: 50%;
-        height: 138px;
+        width: 45%;
+        height: 9.85rem; /* <-- 138px / 14px */
+
+        margin-top: 0.2em;
 
         display: flex;
         flex-direction: column;
         justify-content: left;
         align-items: flex-start;
-
-        margin-top: 0.8em;
     }
 
-    #search h1
+    #search h1 
     {
-        font-size: 1.3em;
+        font-size: 1.6rem;
+
+        margin-bottom: 0.2em;
     }
 
-    #search h3
+    #search h3 
     {
-        font-size: 0.96em;
+        font-size: 1.18em;
         font-weight: normal;
 
-        margin-top: -0.4em;
+        margin-top: 0.2em;
+        margin-bottom: 0.5em;
     }
 
-    #location_search_form
+    #location_search_form 
     {
-        width: 53%;
-        height: 70px;
+        width: 69%;
+        height: 5rem; /* <-- 70px / 14px*/
+
+        margin-top: 0;
 
         display: flex;
         flex-direction: row;
         justify-content: left;
         align-items: center;
-
-        margin-top: -0.6em;
     }
 
-    #location_search_form i
+    /* Allow me to center the icon in a flexbox and align it verticaly with search form others elements*/
+    #location_search_form i 
     {
         flex: 0.13;
 
@@ -3151,49 +3156,52 @@ header nav ul li:nth-child(3) a:visited
         align-items: center;
     }
 
-    .fa-map-marker-alt
+    /* Rules for the map marker icon of font Awesome */
+    .fa-map-marker-alt 
     {
-        width: 2.5em;
-        height: 2.5em;
+        width: 3.3rem;
+        height: 3.3rem;
+
+        font-size: 1.2rem;
 
         background-color: #f2f2f2;
+        border: 0.07rem /* <-- 1px / 14px */ solid #f2f2f2;
 
-        border: 1px solid #f2f2f2;
         border-top-left-radius: 0.7rem;
         border-bottom-left-radius: 0.7rem;
     }
 
-    #location_search_field
+
+    #location_search_field 
     {
         flex: 0.7;
 
         width: 28%;
-        height: 2.5em;
+        height: 3.3rem;
 
         padding-left: 0.8em;
 
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: bolder;
-
         text-align: left;
 
-        border: 1px solid #f2f2f2;
+        border: 0.07rem /* <-- 1px / 14px */ solid #f2f2f2;
         border-radius: 0;
     }
 
-    #location_search_button
+    #location_search_button 
     {
         flex: 0.33;
 
-        height: 2.5em;
+        height: 3.3rem;
 
-        font-size: 1em;
+        font-size: 1.2rem;
         font-weight: bold;
 
         color: white;
         background-color: #0065fc;
 
-        border: 1px solid #0065fc;
+        border: 0.07rem /* <-- 1px / 14px */ solid #0065fc;
         border-top-right-radius: 0.7rem;
         border-bottom-right-radius: 0.7rem;
     }
@@ -3203,8 +3211,8 @@ header nav ul li:nth-child(3) a:visited
     
     #filters 
     {
-        width: 100%;
-        height: 140px;
+        width: 69%;
+        height: 10rem; /* <-- 140 / 14px */
 
         margin: 0.7em 0;
 
@@ -3217,26 +3225,26 @@ header nav ul li:nth-child(3) a:visited
 
     #filters h2 
     {
-        font-size: 1em;
-
-        width: 5%;
+        font-size: 1.3rem;
+        
+        width: 7%;
     }
     
     #filters_list 
     {
-        width: 70%;
+        width: 93%;
 
-        padding: 0 0.5em 0 0em;
+        padding: 0 0 0 0.5em;
 
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
     }
 
     .filters 
     {
-        height: 2.5rem;
+        height: 3.5rem;
 
         margin: 0 0.8em;
 
@@ -3245,22 +3253,22 @@ header nav ul li:nth-child(3) a:visited
         justify-content: space-evenly;
         align-items: center;
 
-        border: 2px solid #d9d9d9;
-        border-radius: 150px;
+        border: 0.14rem /* <-- 2px / 14px */ solid #d9d9d9;
+        border-radius: 10.71rem; /* <-- 150px / 14px */
 
         z-index: 1;
     }
 
     .filters i 
     {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
 
         display: flex;
         justify-content: center;
         align-items: center;
 
-        margin-left: -1.1em;
+        margin-left: -1.5em;
 
         font-size: 1rem;
 
@@ -3274,33 +3282,33 @@ header nav ul li:nth-child(3) a:visited
 
     .filters a 
     {
-        font-size: 0.9em;
+        font-size: 1.15rem;
     }
 
     .filters:nth-child(1) 
     {
-        width: 10rem;
+        width: 13rem;
     }
 
     .filters:nth-child(2) 
     {
-        width: 8rem;
+        width: 10rem;
     }
     
     .filters:nth-child(3) 
     {
-        width: 9rem;
+        width: 10.5rem;
     }
     
     .filters:nth-child(4) 
     {
-        width: 13rem;
+        width: 15rem;
     }
     
 
     #infos_on_research_result 
     {
-        width: 40%;
+        width: 50%;
 
         margin: 0.5em 0;
 
@@ -3312,18 +3320,18 @@ header nav ul li:nth-child(3) a:visited
 
     #infos_on_research_result i 
     {
-        width: 1.3rem;
-        height: 1.3rem;
+        width: 1.9rem;
+        height: 1.9rem;
 
         display: flex;
         justify-content: center;
         align-items: center;
 
-        font-size: 0.6em;
+        font-size: 0.9rem;
 
         color: #0065fc;
-        
-        border: 1px solid #d9d9d9;
+
+        border: 0.07rem /* 1px / 14px */ solid #d9d9d9;
         border-radius: 50%;
     }
 
@@ -3331,9 +3339,9 @@ header nav ul li:nth-child(3) a:visited
     {
         width: 90%;
 
-        font-size: 0.83em;
+        font-size: 1.1rem;
 
-        margin-left: 0.5em;
+        margin-left: 0.8em;
     }
 
 
@@ -3588,7 +3596,7 @@ header nav ul li:nth-child(3) a:visited
         width: 100%;
         height: 36.42rem;
 
-        margin-top: 1.5em;
+        margin-top: 2em;
 
         display: flex;
         flex-direction: column;
