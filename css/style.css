@@ -80,9 +80,16 @@ article
     border-radius: 1rem;
 }
 
+.lodging-picture, .activity-picture
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
-/* Header */
+
+/* ---- Header ---- */
 
 header nav ul li:nth-child(1), header nav ul li:nth-child(2)
 {
@@ -120,6 +127,95 @@ header nav ul li:nth-child(3) a:visited
 .filters:hover
 {
     border-color: #deebff;
+}
+
+
+/* ---- Lodging ---- */
+
+.auberge-la-cannebiere .lodging-picture 
+{
+    background-image: url("backgrounds/lodging/auberge_la_cannebiere.jpg");
+}
+
+.hotel-du-port .lodging-picture
+{
+    background-image: url("backgrounds/lodging/hotel_du_port.jpg");
+}
+
+.hotel-les-mouettes .lodging-picture
+{
+    background-image: url("backgrounds/lodging/hotel_les_mouettes.jpg");
+}
+
+.hotel-de-la-mere .lodging-picture
+{
+    background-image: url("backgrounds/lodging/hotel_de_la_mer.jpg");
+}
+
+.auberge-le-panier .lodging-picture
+{
+    background-image: url("backgrounds/lodging/auberge_le_panier.jpg");
+}
+
+.hotel-chez-amina .lodging-picture
+{
+    background-image: url("backgrounds/lodging/hotel_chez_amina.jpg");
+}
+
+.hotel-le-soleil-du-matin .lodging-picture
+{
+    background-image: url("backgrounds/lodging/hotel_le_soleil_du_matin.jpg");
+}
+
+.au-coeur-de-l-eau-Chambres-d-hotes .lodging-picture
+{
+    background-image: url("backgrounds/lodging/au_coeur_de_l_eau_chambre_d_hote.jpg");
+}
+
+.hotel-tout-bleu-et-blanc .lodging-picture
+{
+    background-image: url("backgrounds/lodging/hotel_tout_bleu_et_blanc.jpg");
+}
+
+
+
+/* ---- Activities ---- */
+
+
+/* -- Sub Column one -- */
+
+
+.activities-sub-col-one > .ac-vieux-port > a > .activity-picture
+{
+    background-image: url("backgrounds/activities/vieux-port.jpg") ;
+}
+
+.activities-sub-col-one > .ac-parc-national-des-calanques > a > .activity-picture
+{
+    background-image: url("backgrounds/activities/parc-national-de-calanques.jpg") ;
+}
+
+
+/* -- Sub column two -- */
+
+.activities-sub-col-two > .ac-fort-pomegues > a > .activity-picture
+{
+    background-image: url("backgrounds/activities/fort-de-pomegues.jpg");
+}
+
+.activities-sub-col-two > .ac-iles-du-frioul > a > .activity-picture
+{
+    background-image: url("backgrounds/activities/iles-du-frioul.jpg");
+}
+
+.activities-sub-col-two > .ac-notre-dame-de-la-garde > a > .activity-picture
+{
+    background-image: url("backgrounds/activities/notre-dame-de-la-garde.jpg");
+}
+
+.activities-sub-col-two > .ac-parc-longchamp > a > .activity-picture
+{
+    background-image: url("backgrounds/activities/parc-longchamp.jpg");
 }
 
 
@@ -522,7 +618,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > .lodging_row > article > a > img 
+    .search_result_lodging > .lodging_row > article > a > .lodging-picture 
     {
         width: 100%;
         height: 7.14rem;
@@ -604,7 +700,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: row;
     }
 
-    .trending_result > article > a > img 
+    .trending_result > article > a > .lodging-picture 
     {
         width: 8rem;
         height: 100%;
@@ -687,9 +783,6 @@ header nav ul li:nth-child(3) a:visited
         height: 9.57rem;
 
         border-radius: 1em 1em 0 0;
-
-        background-position: center;
-        background-size: cover;
     }
 
     #activities article a h3 
@@ -727,16 +820,6 @@ header nav ul li:nth-child(3) a:visited
 
         display: flex;
     }
-
-    .activities-sub-col-one > .ac-vieux-port > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/vieux-port.jpg") no-repeat;
-    }
-
-    .activities-sub-col-one > .ac-parc-national-des-calanques > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/parc-national-de-calanques.jpg") no-repeat;
-    }
     
 
     /* Sub column 2 */
@@ -749,26 +832,6 @@ header nav ul li:nth-child(3) a:visited
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    }
-
-    .activities-sub-col-two > .ac-fort-pomegues > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/fort-de-pomegues.jpg") no-repeat;
-    }
-    
-
-    .activities-sub-col-two > .ac-iles-du-frioul > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/iles-du-frioul.jpg") no-repeat;
-    }
-
-    .activities-sub-col-two > .ac-notre-dame-de-la-garde > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/notre-dame-de-la-garde.jpg") no-repeat;
-    }
-    .activities-sub-col-two > .ac-parc-longchamp > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
     }
 }
 
@@ -1175,7 +1238,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > .lodging_row > article > a > img 
+    .search_result_lodging > .lodging_row > article > a > .lodging-picture 
     {
         width: 100%;
         height: 7.14rem;
@@ -1256,7 +1319,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: row;
     }
 
-    .trending_result > article > a > img
+    .trending_result > article > a > .lodging-picture
     {
         width: 9.43rem;
         height: 100%;
@@ -1339,9 +1402,6 @@ header nav ul li:nth-child(3) a:visited
         height: 9.57rem;
 
         border-radius: 1em 1em 0 0;
-
-        background-position: center;
-        background-size: cover;
     }
 
     #activities article a h3 
@@ -1379,16 +1439,6 @@ header nav ul li:nth-child(3) a:visited
 
         display: flex;
     }
-
-    .activities-sub-col-one > .ac-vieux-port > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/vieux-port.jpg") no-repeat;
-    }
-
-    .activities-sub-col-one > .ac-parc-national-des-calanques > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/parc-national-de-calanques.jpg") no-repeat;
-    }
     
 
     /* Sub column 2 */
@@ -1401,26 +1451,6 @@ header nav ul li:nth-child(3) a:visited
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    }
-
-    .activities-sub-col-two > .ac-fort-pomegues > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/fort-de-pomegues.jpg") no-repeat;
-    }
-    
-
-    .activities-sub-col-two > .ac-iles-du-frioul > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/iles-du-frioul.jpg") no-repeat;
-    }
-
-    .activities-sub-col-two > .ac-notre-dame-de-la-garde > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/notre-dame-de-la-garde.jpg") no-repeat;
-    }
-    .activities-sub-col-two > .ac-parc-longchamp > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
     }
 }
 
@@ -1871,7 +1901,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > .lodging_row > article > a > img
+    .search_result_lodging > .lodging_row > article > a > .lodging-picture
     {
         width: 100%;
         height: 8.14rem;
@@ -1971,7 +2001,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: row;
     }
 
-    .trending_result > article > a > img 
+    .trending_result > article > a > .lodging-picture 
     {
         width: 25%;
         height: 100%;
@@ -2067,9 +2097,6 @@ header nav ul li:nth-child(3) a:visited
         width: 100%;
 
         border-radius: 1em 1em 0 0;
-
-        background-position: center;
-        background-size: cover;
     }
 
     #activities article a h3 
@@ -2115,16 +2142,6 @@ header nav ul li:nth-child(3) a:visited
     {
         height: 27.85rem;
     }
-
-    .activities-sub-col-one > .ac-vieux-port > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/vieux-port.jpg") no-repeat;
-    }
-
-    .activities-sub-col-one > .ac-parc-national-des-calanques > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/parc-national-de-calanques.jpg") no-repeat;
-    }
     
 
     /* Sub column 2 */
@@ -2148,8 +2165,6 @@ header nav ul li:nth-child(3) a:visited
 
     .activities-sub-col-two > .ac-fort-pomegues > a > .activity-picture
     {
-        background: url("backgrounds/3_medium/fort-de-pomegues.jpg") no-repeat;
-
         height: 12.92rem;
     }
     
@@ -2160,8 +2175,6 @@ header nav ul li:nth-child(3) a:visited
 
     .activities-sub-col-two > .ac-iles-du-frioul > a > .activity-picture
     {
-        background: url("backgrounds/3_medium/iles-du-frioul.jpg") no-repeat;
-
         height: 7.92rem;
     }
 
@@ -2172,8 +2185,6 @@ header nav ul li:nth-child(3) a:visited
 
     .activities-sub-col-two > .ac-notre-dame-de-la-garde > a > .activity-picture
     {
-        background: url("backgrounds/3_medium/notre-dame-de-la-garde.jpg") no-repeat;
-
         height: 9.92rem;
     }
 
@@ -2184,8 +2195,6 @@ header nav ul li:nth-child(3) a:visited
 
     .activities-sub-col-two > .ac-parc-longchamp > a > .activity-picture
     {
-        background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
-
         height: 10.85rem;
     }
 
@@ -2655,7 +2664,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > .lodging_row > article > a > img 
+    .search_result_lodging > .lodging_row > article > a > .lodging-picture 
     {
         width: 100%;
         height: 6rem;
@@ -2755,7 +2764,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: row;
     }
 
-    .trending_result > article > a > img 
+    .trending_result > article > a > .lodging-picture 
     {
         width: 40%;
         height: 100%;
@@ -2851,9 +2860,6 @@ header nav ul li:nth-child(3) a:visited
         width: 100%;
 
         border-radius: 1em 1em 0 0;
-
-        background-position: center;
-        background-size: cover;
     }
 
     #activities article a h3 
@@ -2908,16 +2914,6 @@ header nav ul li:nth-child(3) a:visited
     {
         height: 27.85rem;
     }
-
-    .activities-sub-col-one > .ac-vieux-port > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/vieux-port.jpg") no-repeat;
-    }
-
-    .activities-sub-col-one > .ac-parc-national-des-calanques > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/parc-national-de-calanques.jpg") no-repeat;
-    }
     
 
     /* Sub column 2 */
@@ -2941,8 +2937,6 @@ header nav ul li:nth-child(3) a:visited
 
     .activities-sub-col-two > .ac-fort-pomegues > a > .activity-picture
     {
-        background: url("backgrounds/3_medium/fort-de-pomegues.jpg") no-repeat;
-
         height: 12.92rem;
     }
     
@@ -2953,8 +2947,6 @@ header nav ul li:nth-child(3) a:visited
 
     .activities-sub-col-two > .ac-iles-du-frioul > a > .activity-picture
     {
-        background: url("backgrounds/3_medium/iles-du-frioul.jpg") no-repeat;
-
         height: 7.92rem;
     }
 
@@ -2965,8 +2957,6 @@ header nav ul li:nth-child(3) a:visited
 
     .activities-sub-col-two > .ac-notre-dame-de-la-garde > a > .activity-picture
     {
-        background: url("backgrounds/3_medium/notre-dame-de-la-garde.jpg") no-repeat;
-
         height: 9.92rem;
     }
 
@@ -2977,8 +2967,6 @@ header nav ul li:nth-child(3) a:visited
 
     .activities-sub-col-two > .ac-parc-longchamp > a > .activity-picture
     {
-        background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
-
         height: 10.85rem;
     }
     
@@ -3445,7 +3433,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > .lodging_row > article > a > img
+    .search_result_lodging > .lodging_row > article > a > .lodging-picture
     {
         width: 100%;
         height: 8.14rem;
@@ -3545,7 +3533,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: row;
     }
 
-    .trending_result > article > a > img
+    .trending_result > article > a > .lodging-picture
     {
         width: 9.43rem;
         height: 100%;
@@ -3641,9 +3629,6 @@ header nav ul li:nth-child(3) a:visited
         width: 100%;
 
         border-radius: 1em 1em 0 0;
-
-        background-position: center;
-        background-size: cover;
     }
 
     #activities article a h3 
@@ -3699,16 +3684,6 @@ header nav ul li:nth-child(3) a:visited
         height: 27.85rem;
     }
 
-    .activities-sub-col-one > .ac-vieux-port > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/vieux-port.jpg") no-repeat;
-    }
-
-    .activities-sub-col-one > .ac-parc-national-des-calanques > a > .activity-picture
-    {
-        background: url("backgrounds/3_medium/parc-national-de-calanques.jpg") no-repeat;
-    }
-    
 
     /* Sub column 2 */
 
@@ -3731,8 +3706,6 @@ header nav ul li:nth-child(3) a:visited
 
     .activities-sub-col-two > .ac-fort-pomegues > a > .activity-picture
     {
-        background: url("backgrounds/3_medium/fort-de-pomegues.jpg") no-repeat;
-
         height: 12.92rem;
     }
     
@@ -3743,8 +3716,6 @@ header nav ul li:nth-child(3) a:visited
 
     .activities-sub-col-two > .ac-iles-du-frioul > a > .activity-picture
     {
-        background: url("backgrounds/3_medium/iles-du-frioul.jpg") no-repeat;
-
         height: 7.92rem;
     }
 
@@ -3755,8 +3726,6 @@ header nav ul li:nth-child(3) a:visited
 
     .activities-sub-col-two > .ac-notre-dame-de-la-garde > a > .activity-picture
     {
-        background: url("backgrounds/3_medium/notre-dame-de-la-garde.jpg") no-repeat;
-
         height: 9.92rem;
     }
 
@@ -3767,8 +3736,6 @@ header nav ul li:nth-child(3) a:visited
 
     .activities-sub-col-two > .ac-parc-longchamp > a > .activity-picture
     {
-        background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
-
         height: 10.85rem;
     }
     
