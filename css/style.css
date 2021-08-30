@@ -757,7 +757,8 @@ header nav ul li:nth-child(3) a:visited
     }
 }
 
-/* Specific layout rules for mobile */
+
+/* Specific layout rules for mobile L. and M.*/
 
 @media (min-width: 320px) and (max-width: 765px)
 {
@@ -1404,8 +1405,12 @@ header nav ul li:nth-child(3) a:visited
     {
         background: url("backgrounds/3_medium/parc-longchamp.jpg") no-repeat;
     }
+}
 
+/* ---- Rules for all mobile ---- */
 
+@media (min-width: 0) and (max-width: 765px)
+{
     /* --- Footer --- */
 
     footer 
