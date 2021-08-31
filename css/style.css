@@ -80,7 +80,7 @@ article
     border-radius: 1rem;
 }
 
-.lodging-picture, .activity-picture
+.accommodation-picture, .activity-picture
 {
     background-position: center;
     background-size: cover;
@@ -130,51 +130,51 @@ header nav ul li:nth-child(3) a:visited
 }
 
 
-/* ---- Lodging ---- */
+/* ---- accommodation ---- */
 
-.auberge-la-cannebiere .lodging-picture 
+.auberge-la-cannebiere .accommodation-picture 
 {
-    background-image: url("backgrounds/lodging/auberge_la_cannebiere.jpg");
+    background-image: url("backgrounds/accommodation/auberge_la_cannebiere.jpg");
 }
 
-.hotel-du-port .lodging-picture
+.hotel-du-port .accommodation-picture
 {
-    background-image: url("backgrounds/lodging/hotel_du_port.jpg");
+    background-image: url("backgrounds/accommodation/hotel_du_port.jpg");
 }
 
-.hotel-les-mouettes .lodging-picture
+.hotel-les-mouettes .accommodation-picture
 {
-    background-image: url("backgrounds/lodging/hotel_les_mouettes.jpg");
+    background-image: url("backgrounds/accommodation/hotel_les_mouettes.jpg");
 }
 
-.hotel-de-la-mere .lodging-picture
+.hotel-de-la-mere .accommodation-picture
 {
-    background-image: url("backgrounds/lodging/hotel_de_la_mer.jpg");
+    background-image: url("backgrounds/accommodation/hotel_de_la_mer.jpg");
 }
 
-.auberge-le-panier .lodging-picture
+.auberge-le-panier .accommodation-picture
 {
-    background-image: url("backgrounds/lodging/auberge_le_panier.jpg");
+    background-image: url("backgrounds/accommodation/auberge_le_panier.jpg");
 }
 
-.hotel-chez-amina .lodging-picture
+.hotel-chez-amina .accommodation-picture
 {
-    background-image: url("backgrounds/lodging/hotel_chez_amina.jpg");
+    background-image: url("backgrounds/accommodation/hotel_chez_amina.jpg");
 }
 
-.hotel-le-soleil-du-matin .lodging-picture
+.hotel-le-soleil-du-matin .accommodation-picture
 {
-    background-image: url("backgrounds/lodging/hotel_le_soleil_du_matin.jpg");
+    background-image: url("backgrounds/accommodation/hotel_le_soleil_du_matin.jpg");
 }
 
-.au-coeur-de-l-eau-Chambres-d-hotes .lodging-picture
+.au-coeur-de-l-eau-Chambres-d-hotes .accommodation-picture
 {
-    background-image: url("backgrounds/lodging/au_coeur_de_l_eau_chambre_d_hote.jpg");
+    background-image: url("backgrounds/accommodation/au_coeur_de_l_eau_chambre_d_hote.jpg");
 }
 
-.hotel-tout-bleu-et-blanc .lodging-picture
+.hotel-tout-bleu-et-blanc .accommodation-picture
 {
-    background-image: url("backgrounds/lodging/hotel_tout_bleu_et_blanc.jpg");
+    background-image: url("backgrounds/accommodation/hotel_tout_bleu_et_blanc.jpg");
 }
 
 
@@ -523,11 +523,11 @@ header nav ul li:nth-child(3) a:visited
         border-radius: 50%;
     }
 
-    /* ---- Lodging section ---- */
+    /* ---- accommodation section ---- */
 
     /* CSS styles common to the Search result and Trending result sub-section */
 
-    #lodging {
+    #accommodation {
         width: 100%;
         height: 134rem;
 
@@ -537,12 +537,12 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column-reverse;
     }
 
-    #lodging h2, #lodging .fa-chart-line
+    #accommodation h2, #accommodation .fa-chart-line
     {
         font-size: 1.45rem;
     }
 
-    #lodging article
+    #accommodation article
     {
         background-color: white;
 
@@ -551,20 +551,20 @@ header nav ul li:nth-child(3) a:visited
         border-radius: 1rem;
     }
 
-    #lodging .lodging-infos h3
+    #accommodation .accommodation-infos h3
     {
         font-size: 1rem;
         font-weight: bold;
     }
 
-    #lodging .lodging-infos p 
+    #accommodation .accommodation-infos p 
     {
         font-size: 0.9rem;
         font-weight: normal;
 
     }
 
-    #lodging .lodging-infos .lodging_ranking 
+    #accommodation .accommodation-infos .accommodation_ranking 
     {
         font-size: 0.75rem;
     }    
@@ -572,7 +572,7 @@ header nav ul li:nth-child(3) a:visited
 
     /* Search result sub-section */
 
-    .search_result_lodging 
+    .search_result_accommodation 
     {
         width: 100%;
         height: 107rem;
@@ -583,12 +583,12 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > h2 
+    .search_result_accommodation > h2 
     {
         margin-bottom: 1.2em;
     }
 
-    .search_result_lodging > .lodging_row 
+    .search_result_accommodation > .accommodation_row 
     {
         width: 100%;
         height: 44.21rem;
@@ -600,14 +600,14 @@ header nav ul li:nth-child(3) a:visited
         justify-content: space-between;
     }
 
-    .search_result_lodging > .lodging_row > article 
+    .search_result_accommodation > .accommodation_row > article 
     {
         width: 100%;
         height: 13rem;
         margin: 0.8em 0;
     }
 
-    .search_result_lodging > .lodging_row > article > a 
+    .search_result_accommodation > .accommodation_row > article > a 
     {
         width: 97%;
         height: 95%;
@@ -618,7 +618,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > .lodging_row > article > a > .lodging-picture 
+    .search_result_accommodation > .accommodation_row > article > a > .accommodation-picture 
     {
         width: 100%;
         height: 7.14rem;
@@ -630,20 +630,20 @@ header nav ul li:nth-child(3) a:visited
         align-self: center;
     }
 
-    .search_result_lodging > .lodging_row > article > a > .lodging-infos
+    .search_result_accommodation > .accommodation_row > article > a > .accommodation-infos
     {
         display: flex;
         flex-direction: column;
     }
 
-    .search_result_lodging .lodging-infos h3, .search_result_lodging .lodging-infos p, .search_result_lodging .lodging-infos .lodging_ranking
+    .search_result_accommodation .accommodation-infos h3, .search_result_accommodation .accommodation-infos p, .search_result_accommodation .accommodation-infos .accommodation_ranking
     {
         margin-top: 0;
         margin-left: 0.71em;
         margin-bottom: 0.35em;
     }
 
-    .search_result_lodging > .display-more 
+    .search_result_accommodation > .display-more 
     {
         font-size: 1.1rem;
         font-weight: bold;
@@ -700,7 +700,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: row;
     }
 
-    .trending_result > article > a > .lodging-picture 
+    .trending_result > article > a > .accommodation-picture 
     {
         width: 8rem;
         height: 100%;
@@ -712,7 +712,7 @@ header nav ul li:nth-child(3) a:visited
         border-bottom-left-radius: 1em;
     }
 
-    .trending_result > article > a > .lodging-infos
+    .trending_result > article > a > .accommodation-infos
     {
         width: 50%;
 
@@ -723,18 +723,18 @@ header nav ul li:nth-child(3) a:visited
         margin-left: 0.30rem;
     }
 
-    .trending_result > article > a > .lodging-infos > h3
+    .trending_result > article > a > .accommodation-infos > h3
     {
         margin-top: 1rem;
         margin-bottom: 0.25rem;
     }
 
-    .trending_result > article > a > .lodging-infos > p
+    .trending_result > article > a > .accommodation-infos > p
     {
         margin-top: 0.25rem;
     }
 
-    .trending_result > article > a > .lodging-infos > .lodging_ranking
+    .trending_result > article > a > .accommodation-infos > .accommodation_ranking
     {
         margin: auto 0;
     }
@@ -1142,11 +1142,11 @@ header nav ul li:nth-child(3) a:visited
     }
 
     
-    /* ---- Lodging section ---- */
+    /* ---- accommodation section ---- */
 
     /* CSS styles common to the Search result and Trending result sub-section */
 
-    #lodging 
+    #accommodation 
     {
         width: 100%;
         height: 134rem;
@@ -1157,12 +1157,12 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column-reverse;
     }
 
-    #lodging h2, #lodging .fa-chart-line
+    #accommodation h2, #accommodation .fa-chart-line
     {
         font-size: 1.45rem;
     }
 
-    #lodging article
+    #accommodation article
     {
         background-color: white;
 
@@ -1171,20 +1171,20 @@ header nav ul li:nth-child(3) a:visited
         border-radius: 1rem;
     }
 
-    #lodging .lodging-infos h3
+    #accommodation .accommodation-infos h3
     {
         font-size: 1rem;
         font-weight: bold;
     }
 
-    #lodging .lodging-infos p 
+    #accommodation .accommodation-infos p 
     {
         font-size: 0.9rem;
         font-weight: normal;
 
     }
 
-    #lodging .lodging-infos .lodging_ranking 
+    #accommodation .accommodation-infos .accommodation_ranking 
     {
         font-size: 0.75rem;
     }    
@@ -1192,7 +1192,7 @@ header nav ul li:nth-child(3) a:visited
 
     /* Search result sub-section */
 
-    .search_result_lodging 
+    .search_result_accommodation 
     {
         width: 100%;
         height: 107rem;
@@ -1203,12 +1203,12 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > h2 
+    .search_result_accommodation > h2 
     {
         margin-bottom: 1.2em;
     }
 
-    .search_result_lodging > .lodging_row 
+    .search_result_accommodation > .accommodation_row 
     {
         width: 100%;
         height: 44.21rem;
@@ -1220,14 +1220,14 @@ header nav ul li:nth-child(3) a:visited
         justify-content: space-between;
     }
 
-    .search_result_lodging > .lodging_row > article 
+    .search_result_accommodation > .accommodation_row > article 
     {
         width: 100%;
         height: 13rem;
         margin: 0.8em 0;
     }
 
-    .search_result_lodging > .lodging_row > article > a 
+    .search_result_accommodation > .accommodation_row > article > a 
     {
         width: 97%;
         height: 95%;
@@ -1238,7 +1238,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > .lodging_row > article > a > .lodging-picture 
+    .search_result_accommodation > .accommodation_row > article > a > .accommodation-picture 
     {
         width: 100%;
         height: 7.14rem;
@@ -1250,20 +1250,20 @@ header nav ul li:nth-child(3) a:visited
         align-self: center;
     }
 
-    .search_result_lodging > .lodging_row > article > a > .lodging-infos
+    .search_result_accommodation > .accommodation_row > article > a > .accommodation-infos
     {
         display: flex;
         flex-direction: column;
     }
 
-    .search_result_lodging .lodging-infos h3, .search_result_lodging .lodging-infos p, .search_result_lodging .lodging-infos .lodging_ranking
+    .search_result_accommodation .accommodation-infos h3, .search_result_accommodation .accommodation-infos p, .search_result_accommodation .accommodation-infos .accommodation_ranking
     {
         margin-top: 0;
         margin-left: 0.71em;
         margin-bottom: 0.35em;
     }
 
-    .search_result_lodging > .display-more 
+    .search_result_accommodation > .display-more 
     {
         font-size: 1.2rem;
         font-weight: bold;
@@ -1319,7 +1319,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: row;
     }
 
-    .trending_result > article > a > .lodging-picture
+    .trending_result > article > a > .accommodation-picture
     {
         width: 9.43rem;
         height: 100%;
@@ -1331,7 +1331,7 @@ header nav ul li:nth-child(3) a:visited
         border-bottom-left-radius:  1em;
     }
 
-    .trending_result > article > a > .lodging-infos
+    .trending_result > article > a > .accommodation-infos
     {
         width: 50%;
 
@@ -1342,18 +1342,18 @@ header nav ul li:nth-child(3) a:visited
         margin-left: 0.30rem;
     }
 
-    .trending_result > article > a > .lodging-infos > h3
+    .trending_result > article > a > .accommodation-infos > h3
     {
         margin-top: 1rem;
         margin-bottom: 0.25rem;
     }
 
-    .trending_result > article > a > .lodging-infos > p
+    .trending_result > article > a > .accommodation-infos > p
     {
         margin-top: 0.25rem;
     }
 
-    .trending_result > article > a > .lodging-infos > .lodging_ranking
+    .trending_result > article > a > .accommodation-infos > .accommodation_ranking
     {
         margin: auto 0;
     }
@@ -1509,7 +1509,7 @@ header nav ul li:nth-child(3) a:visited
         height: 8rem;
     }
 
-    .our-lodging, .help {
+    .our-accommodation, .help {
         height: 7rem;
     }
 }
@@ -1805,11 +1805,11 @@ header nav ul li:nth-child(3) a:visited
     }
 
 
-    /* ---- Lodging section ---- */
+    /* ---- accommodation section ---- */
 
     /* CSS styles common to the Search result and Trending result sub-section */
 
-    #lodging 
+    #accommodation 
     {
         width: 100%;
         height: 86.21rem;
@@ -1819,12 +1819,12 @@ header nav ul li:nth-child(3) a:visited
         justify-content: flex-start;
     }
 
-    #lodging h2, #lodging .fa-chart-line 
+    #accommodation h2, #accommodation .fa-chart-line 
     {
         font-size: 1.2rem;
     }
 
-    #lodging article
+    #accommodation article
     {
         background-color: white;
 
@@ -1833,19 +1833,19 @@ header nav ul li:nth-child(3) a:visited
         border-radius: 1rem;
     }
 
-    #lodging .lodging-infos h3 
+    #accommodation .accommodation-infos h3 
     {
         font-size: 1rem;
         font-weight: bold;
     }
 
-    #lodging .lodging-infos p 
+    #accommodation .accommodation-infos p 
     {
         font-size: 0.9rem;
         font-weight: normal;
     }
 
-    #lodging .lodging-infos .lodging_ranking 
+    #accommodation .accommodation-infos .accommodation_ranking 
     {
         font-size: 0.7rem;
     }
@@ -1853,7 +1853,7 @@ header nav ul li:nth-child(3) a:visited
 
     /* Search result sub-section */
 
-    .search_result_lodging 
+    .search_result_accommodation 
     {
         width: 100%;
         height: 42rem;
@@ -1869,12 +1869,12 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > h2
+    .search_result_accommodation > h2
     {
         margin-bottom: 1.71em;
     }
 
-    .search_result_lodging > .lodging_row 
+    .search_result_accommodation > .accommodation_row 
     {
         width: 100%;
         height: 13.5rem;
@@ -1887,13 +1887,13 @@ header nav ul li:nth-child(3) a:visited
         justify-content: space-between;
     }
 
-    .search_result_lodging > .lodging_row > article
+    .search_result_accommodation > .accommodation_row > article
     {
         width: 31%;
         height: inherit;
     }
 
-    .search_result_lodging > .lodging_row  > article > a
+    .search_result_accommodation > .accommodation_row  > article > a
     {
         width: 95%;
         height: inherit;
@@ -1904,7 +1904,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > .lodging_row > article > a > .lodging-picture
+    .search_result_accommodation > .accommodation_row > article > a > .accommodation-picture
     {
         width: 100%;
         height: 8.14rem;
@@ -1917,20 +1917,20 @@ header nav ul li:nth-child(3) a:visited
         align-self: center;
     }
 
-    .search_result_lodging > .lodging_row > article > a > .lodging-infos
+    .search_result_accommodation > .accommodation_row > article > a > .accommodation-infos
     {
         display: flex;
         flex-direction: column;
     }
 
-    .search_result_lodging .lodging-infos h3, .search_result_lodging .lodging-infos p, .search_result_lodging .lodging-infos .lodging_ranking 
+    .search_result_accommodation .accommodation-infos h3, .search_result_accommodation .accommodation-infos p, .search_result_accommodation .accommodation-infos .accommodation_ranking 
     {
         margin-top: 0em;
         margin-left: 0.71em;
         margin-bottom: 0.35em;
     }
 
-    .search_result_lodging > .display-more 
+    .search_result_accommodation > .display-more 
     {
         font-size: 1rem;
         font-weight: bold;
@@ -2006,7 +2006,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: row;
     }
 
-    .trending_result > article > a > .lodging-picture 
+    .trending_result > article > a > .accommodation-picture 
     {
         width: 35%;
         height: 100%;
@@ -2018,7 +2018,7 @@ header nav ul li:nth-child(3) a:visited
         border-bottom-left-radius: 1em;
     }
 
-    .trending_result > article > a > .lodging-infos 
+    .trending_result > article > a > .accommodation-infos 
     {
         width: 45%;
         height: 7.4rem;
@@ -2030,18 +2030,18 @@ header nav ul li:nth-child(3) a:visited
         justify-content: flex-start;
     }
 
-    .trending_result > article > a > .lodging-infos > h3
+    .trending_result > article > a > .accommodation-infos > h3
     {
         margin-top: 1rem;
         margin-bottom: 0.25rem;
     }
 
-    .trending_result > article > a > .lodging-infos > p
+    .trending_result > article > a > .accommodation-infos > p
     {
         margin-top: 0.25rem;
     }
 
-    .trending_result > article > a > .lodging-infos > .lodging_ranking 
+    .trending_result > article > a > .accommodation-infos > .accommodation_ranking 
     {
         margin-top: auto;
     }
@@ -2570,11 +2570,11 @@ header nav ul li:nth-child(3) a:visited
     }
 
 
-    /* ---- Lodging section ---- */
+    /* ---- accommodation section ---- */
 
     /* CSS styles common to the Search result and Trending result sub-section */
 
-    #lodging 
+    #accommodation 
     {
         width: 100%;
         height: 33rem;
@@ -2584,12 +2584,12 @@ header nav ul li:nth-child(3) a:visited
         justify-content: space-between;
     }
 
-    #lodging h2, #lodging .fa-chart-line 
+    #accommodation h2, #accommodation .fa-chart-line 
     {
         font-size: 1rem;
     }
 
-    #lodging article
+    #accommodation article
     {
         background-color: white;
 
@@ -2598,19 +2598,19 @@ header nav ul li:nth-child(3) a:visited
         border-radius: 1rem;
     }
 
-    #lodging .lodging-infos h3 
+    #accommodation .accommodation-infos h3 
     {
         font-size: 0.8rem;
         font-weight: bold;
     }
 
-    #lodging .lodging-infos p 
+    #accommodation .accommodation-infos p 
     {
         font-size: 0.7rem;
         font-weight: normal;
     }
 
-    #lodging .lodging-infos .lodging_ranking 
+    #accommodation .accommodation-infos .accommodation_ranking 
     {
         font-size: 0.6rem;
     }
@@ -2618,7 +2618,7 @@ header nav ul li:nth-child(3) a:visited
 
     /* Search result sub-section */
 
-    .search_result_lodging 
+    .search_result_accommodation 
     {
         width: 66.66%;
         height: inherit;
@@ -2634,12 +2634,12 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > h2
+    .search_result_accommodation > h2
     {
         margin-bottom: 1.71em;
     }
 
-    .search_result_lodging > .lodging_row 
+    .search_result_accommodation > .accommodation_row 
     {
         width: 100%;
         height: 10.5rem;
@@ -2652,13 +2652,13 @@ header nav ul li:nth-child(3) a:visited
         justify-content: space-between;
     }
 
-    .search_result_lodging > .lodging_row > article
+    .search_result_accommodation > .accommodation_row > article
     {
         width: 31%;
         height: inherit;
     }
 
-    .search_result_lodging > .lodging_row  > article > a
+    .search_result_accommodation > .accommodation_row  > article > a
     {
         width: 95%;
         height: inherit;
@@ -2669,7 +2669,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > .lodging_row > article > a > .lodging-picture 
+    .search_result_accommodation > .accommodation_row > article > a > .accommodation-picture 
     {
         width: 100%;
         height: 6rem;
@@ -2682,20 +2682,20 @@ header nav ul li:nth-child(3) a:visited
         align-self: center;
     }
 
-    .search_result_lodging > .lodging_row > article > a > .lodging-infos
+    .search_result_accommodation > .accommodation_row > article > a > .accommodation-infos
     {
         display: flex;
         flex-direction: column;
     }
 
-    .search_result_lodging .lodging-infos h3, .search_result_lodging .lodging-infos p, .search_result_lodging .lodging-infos .lodging_ranking
+    .search_result_accommodation .accommodation-infos h3, .search_result_accommodation .accommodation-infos p, .search_result_accommodation .accommodation-infos .accommodation_ranking
     {
         margin-top: 0;
         margin-left: 0.71em;
         margin-bottom: 0.35em;
     }
 
-    .search_result_lodging > .display-more 
+    .search_result_accommodation > .display-more 
     {
         font-size: 0.7rem;
         font-weight: bold;
@@ -2769,7 +2769,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: row;
     }
 
-    .trending_result > article > a > .lodging-picture 
+    .trending_result > article > a > .accommodation-picture 
     {
         width: 40%;
         height: 100%;
@@ -2781,7 +2781,7 @@ header nav ul li:nth-child(3) a:visited
         border-bottom-left-radius: 1em;
     }
 
-    .trending_result > article > a > .lodging-infos 
+    .trending_result > article > a > .accommodation-infos 
     {
         width: 60%;
 
@@ -2792,18 +2792,18 @@ header nav ul li:nth-child(3) a:visited
         margin-left: 0.4rem;
     }
 
-    .trending_result > article > a > .lodging-infos > h3
+    .trending_result > article > a > .accommodation-infos > h3
     {
         margin-top: 1rem;
         margin-bottom: 0.25rem;
     }
 
-    .trending_result > article > a > .lodging-infos > p
+    .trending_result > article > a > .accommodation-infos > p
     {
         margin-top: 0.25rem;
     }
 
-    .trending_result > article > a > .lodging-infos > .lodging_ranking
+    .trending_result > article > a > .accommodation-infos > .accommodation_ranking
     {
         margin: auto 0;
     }
@@ -3338,11 +3338,11 @@ header nav ul li:nth-child(3) a:visited
     }
 
 
-    /* ---- Lodging section ---- */
+    /* ---- accommodation section ---- */
 
     /* CSS styles common to the Search result and Trending result sub-section */
 
-    #lodging
+    #accommodation
     {
         width: 100%;
         height: 45.35rem;
@@ -3352,12 +3352,12 @@ header nav ul li:nth-child(3) a:visited
         justify-content: space-between;
     }
 
-    #lodging h2, #lodging .fa-chart-line
+    #accommodation h2, #accommodation .fa-chart-line
     {
         font-size: 1.3rem;
     }
 
-    #lodging article
+    #accommodation article
     {
         background-color: white;
 
@@ -3366,20 +3366,20 @@ header nav ul li:nth-child(3) a:visited
         border-radius: 1rem;
     }
 
-    #lodging .lodging-infos h3
+    #accommodation .accommodation-infos h3
     {
         font-size: 1.2rem;
         font-weight: bold;
     }
 
-    #lodging .lodging-infos p 
+    #accommodation .accommodation-infos p 
     {
         font-size: 1rem;
         font-weight: normal;
 
     }
 
-    #lodging .lodging-infos .lodging_ranking 
+    #accommodation .accommodation-infos .accommodation_ranking 
     {
         font-size: 0.75rem;
     }
@@ -3387,7 +3387,7 @@ header nav ul li:nth-child(3) a:visited
 
     /* Search result sub-section */
 
-    .search_result_lodging
+    .search_result_accommodation
     {
         width: 66.66%;
         height: inherit;
@@ -3403,12 +3403,12 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > h2
+    .search_result_accommodation > h2
     {
         margin-bottom: 1.71em;
     }
 
-    .search_result_lodging > .lodging_row
+    .search_result_accommodation > .accommodation_row
     {
         width: 100%;
         height: 14.64rem;
@@ -3421,13 +3421,13 @@ header nav ul li:nth-child(3) a:visited
         justify-content: space-between;
     }
 
-    .search_result_lodging > .lodging_row > article
+    .search_result_accommodation > .accommodation_row > article
     {
         width: 31%;
         height: inherit;
     }
 
-    .search_result_lodging > .lodging_row  > article > a
+    .search_result_accommodation > .accommodation_row  > article > a
     {
         width: 95%;
         height: inherit;
@@ -3438,7 +3438,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: column;
     }
 
-    .search_result_lodging > .lodging_row > article > a > .lodging-picture
+    .search_result_accommodation > .accommodation_row > article > a > .accommodation-picture
     {
         width: 100%;
         height: 8.14rem;
@@ -3451,20 +3451,20 @@ header nav ul li:nth-child(3) a:visited
         align-self: center;
     }
 
-    .search_result_lodging > .lodging_row > article > a > .lodging-infos
+    .search_result_accommodation > .accommodation_row > article > a > .accommodation-infos
     {
         display: flex;
         flex-direction: column;
     }
 
-    .search_result_lodging .lodging-infos h3, .search_result_lodging .lodging-infos p, .search_result_lodging .lodging-infos .lodging_ranking
+    .search_result_accommodation .accommodation-infos h3, .search_result_accommodation .accommodation-infos p, .search_result_accommodation .accommodation-infos .accommodation_ranking
     {
         margin-top: 0;
         margin-left: 0.71em;
         margin-bottom: 0.35em;
     }
 
-    .search_result_lodging > .display-more
+    .search_result_accommodation > .display-more
     {
         font-size: 1rem;
         font-weight: bold;
@@ -3538,7 +3538,7 @@ header nav ul li:nth-child(3) a:visited
         flex-direction: row;
     }
 
-    .trending_result > article > a > .lodging-picture
+    .trending_result > article > a > .accommodation-picture
     {
         width: 9.43rem;
         height: 100%;
@@ -3550,7 +3550,7 @@ header nav ul li:nth-child(3) a:visited
         border-bottom-left-radius:  1em;
     }
 
-    .trending_result > article > a > .lodging-infos
+    .trending_result > article > a > .accommodation-infos
     {
         width: 50%;
 
@@ -3561,18 +3561,18 @@ header nav ul li:nth-child(3) a:visited
         margin-left: 0.75rem;
     }
 
-    .trending_result > article > a > .lodging-infos > h3
+    .trending_result > article > a > .accommodation-infos > h3
     {
         margin-top: 1rem;
         margin-bottom: 0.25rem;
     }
 
-    .trending_result > article > a > .lodging-infos > p
+    .trending_result > article > a > .accommodation-infos > p
     {
         margin-top: 0.25rem;
     }
 
-    .trending_result > article > a > .lodging-infos > .lodging_ranking
+    .trending_result > article > a > .accommodation-infos > .accommodation_ranking
     {
         margin: auto 0;
     }
