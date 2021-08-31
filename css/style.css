@@ -1966,8 +1966,10 @@ header nav ul li:nth-child(3) a:visited
 
     .trending_result > article 
     {
-        width: 100%;
+        width: 50%;
         height: 8.5rem;
+
+        align-self: center;
 
         display: flex;
         align-items: center;
@@ -2003,7 +2005,7 @@ header nav ul li:nth-child(3) a:visited
 
     .trending_result > article > a > .lodging-picture 
     {
-        width: 25%;
+        width: 35%;
         height: 100%;
 
         margin-right: 0.75rem;
@@ -2015,14 +2017,14 @@ header nav ul li:nth-child(3) a:visited
 
     .trending_result > article > a > .lodging-infos 
     {
-        width: 50%;
+        width: 45%;
         height: 7.4rem;
+
+        margin-left: 0.75rem;
 
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-
-        margin-left: 0.75rem;
     }
 
     .trending_result > article > a > .lodging-infos > h3
