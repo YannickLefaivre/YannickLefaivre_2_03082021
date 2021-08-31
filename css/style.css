@@ -24,8 +24,6 @@
 
 *
 {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -3153,7 +3151,6 @@ header nav ul li:nth-child(3) a:visited
         font-size: 1.2rem;
 
         background-color: #f2f2f2;
-        border: 0.07rem /* <-- 1px / 14px */ solid #f2f2f2;
 
         border-top-left-radius: 0.7rem;
         border-bottom-left-radius: 0.7rem;
@@ -3189,7 +3186,8 @@ header nav ul li:nth-child(3) a:visited
         color: white;
         background-color: #0065fc;
 
-        border: 0.07rem /* <-- 1px / 14px */ solid #0065fc;
+        border: none;
+
         border-top-right-radius: 0.7rem;
         border-bottom-right-radius: 0.7rem;
     }
