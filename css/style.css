@@ -1991,7 +1991,7 @@ header nav ul li:nth-child(3) a:visited
 
     .trending_result > article 
     {
-        width: 50%;
+        width: 60%;
         height: 8.5rem;
 
         align-self: center;
@@ -2042,7 +2042,7 @@ header nav ul li:nth-child(3) a:visited
 
     .trending_result > article > a > .accommodation-infos 
     {
-        width: 45%;
+        width: 50%;
         height: 7.4rem;
 
         margin-left: 0.75rem;
