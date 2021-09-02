@@ -2407,15 +2407,16 @@ input[type="search"]:focus
         margin-top: -0.6em;
     }
 
-    #location_search_form i
+    #location_search_form i 
     {
-        flex: 0.13;
+        flex: 0.2;
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    
 
     .fa-map-marker-alt 
     {
@@ -2437,10 +2438,10 @@ input[type="search"]:focus
         padding-left: 0.8em;
 
         font-size: 0.8rem;
+
         font-weight: bolder;
-
         text-align: left;
-
+        
         border: 1px solid #f2f2f2;
         border-radius: 0;
     }
@@ -2456,8 +2457,8 @@ input[type="search"]:focus
 
         color: white;
         background-color: #0065fc;
-        
-        border: none;
+
+        border: currentColor;
 
         border-top-right-radius: 0.7rem;
         border-bottom-right-radius: 0.7rem;
@@ -3224,7 +3225,7 @@ input[type="search"]:focus
         color: white;
         background-color: #0065fc;
 
-        border: none;
+        border: currentColor;
 
         border-top-right-radius: 0.7rem;
         border-bottom-right-radius: 0.7rem;
