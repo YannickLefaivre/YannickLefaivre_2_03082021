@@ -115,6 +115,14 @@ header nav ul li:nth-child(3) a:visited
 }
 
 
+/* ---- Search ----  */
+
+input[type="search"]:focus 
+{
+    outline-color: #0065fc;
+}
+
+
 /* ---- Filters ---- */
 
 #filters_list a:hover
