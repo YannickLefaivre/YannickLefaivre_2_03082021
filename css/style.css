@@ -836,23 +836,25 @@ header nav ul li:nth-child(3) a:visited
 
 /* Specific layout rules for mobile L. and M.*/
 
-@media (min-width: 320px) and (max-width: 765px)
+@media (min-width: 320px) and (max-width: 767px)
 {
     #main_wrapper
-    {    
-        max-width: 336px;
-
+    {
         margin: auto;
-        padding-left: 0.5%;
-        padding-right: 0.5%;
     }
 
 
-    /* Header */
+    /* --- Header --- */
 
-    header nav
+    header 
     {
-        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header nav 
+    {
+        width: 85%;
         height: 130px;
 
         display: flex;
@@ -907,18 +909,29 @@ header nav ul li:nth-child(3) a:visited
     }
 
 
-    /* Search section */
-    #search
+    /* --- Page main content --- */
+
+    main 
     {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* -- Search section -- */
+
+    #search 
+    {
+        width: 85%;
         height: 174px;
+        
+        margin-top: -0.5em;
 
         display: flex;
         flex-direction: column;
         justify-content: left;
         align-items: flex-start;
-
-        margin-top: -0.5em;
     }
 
     #search h1
@@ -1007,7 +1020,7 @@ header nav ul li:nth-child(3) a:visited
 
     #filters
     {
-        width: 100%;
+        width: 85%;
         height: 19.85rem;
 
         margin-bottom: 1.46em;
@@ -1153,6 +1166,7 @@ header nav ul li:nth-child(3) a:visited
 
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     #accommodation h2, #accommodation .fa-chart-line
@@ -1192,7 +1206,7 @@ header nav ul li:nth-child(3) a:visited
 
     .search_result_accommodation 
     {
-        width: 100%;
+        width: 85%;
         height: 107rem;
 
         padding: 1.5em 0;
@@ -1276,7 +1290,7 @@ header nav ul li:nth-child(3) a:visited
         width: 100%;
         height: 37rem;
 
-        padding: 1em 0 2em 0em;
+        padding: 1em 2em 2em 2em;
 
         display: flex;
         flex-direction: column;
@@ -1364,7 +1378,7 @@ header nav ul li:nth-child(3) a:visited
     
     #activities 
     {
-        width: 100%;
+        width: 85%;
         height: 96.14rem;
 
         display: flex;
@@ -1452,9 +1466,19 @@ header nav ul li:nth-child(3) a:visited
     }
 }
 
-/* ---- Rules for all mobile ---- */
 
-@media (min-width: 0) and (max-width: 765px)
+/* Rule for mobile L */
+@media (min-width: 376px) and (max-width: 767px)
+{
+    #filters_list
+    {
+        width: 94%;
+    }
+}
+
+
+/* ---- Rules for all mobile ---- */
+@media (min-width: 0) and (max-width: 767px)
 {
     /* --- Footer --- */
 
@@ -1463,7 +1487,7 @@ header nav ul li:nth-child(3) a:visited
         width: 100%;
         height: 27rem;
 
-        margin-top: 1.5em;
+        margin-top: 3.35em;
 
         display: flex;
         flex-direction: column;
@@ -1473,8 +1497,8 @@ header nav ul li:nth-child(3) a:visited
 
     footer div 
     {
-        width: 90%;
-        
+        width: 100%;
+
         margin-left: auto;
         margin-right: auto;
         display: flex;
