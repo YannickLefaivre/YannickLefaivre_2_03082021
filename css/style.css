@@ -230,14 +230,21 @@ input[type="search"]:focus
 
 
 /* ---- Specific rules for small Mobile ---- */
-@media (max-width: 280px)
+@media (max-width: 319px)
 {
     #main_wrapper
     {
-        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     /* Header */
+
+    header
+    {
+        width: 95%;
+    }
 
     header nav
     {
@@ -298,10 +305,22 @@ input[type="search"]:focus
     }
 
 
-    /* Search section */
-    #search
+    /* --- Page main content --- */
+
+    main
     {
         width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* -- Search section -- */
+
+    #search
+    {
+        width: 95%;
         height: 200px;
 
         display: flex;
@@ -398,7 +417,7 @@ input[type="search"]:focus
 
     #filters 
     {
-        width: 100%;
+        width: 95%;
         height: 380px;
 
         margin: -1.5em 0;
@@ -536,7 +555,8 @@ input[type="search"]:focus
 
     /* CSS styles common to the Search result and Trending result sub-section */
 
-    #accommodation {
+    #accommodation 
+    {
         width: 100%;
         height: 134rem;
 
@@ -583,7 +603,7 @@ input[type="search"]:focus
 
     .search_result_accommodation 
     {
-        width: 100%;
+        width: 95%;
         height: 107rem;
 
         padding: 1.5em 0;
@@ -669,7 +689,7 @@ input[type="search"]:focus
         width: 100%;
         height: 36rem;
 
-        padding: 1em 0;
+        padding: 1em 1em;
 
         display: flex;
         flex-direction: column;
@@ -756,7 +776,7 @@ input[type="search"]:focus
     
     #activities 
     {
-        width: 100%;
+        width: 95%;
         height: 96.14rem;
 
         display: flex;
