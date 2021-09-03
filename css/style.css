@@ -115,7 +115,10 @@ header nav ul li:nth-child(3) a:visited
 }
 
 
-/* ---- Search ----  */
+/* ---- Page main content ---- */
+
+
+/* --- Search ---  */
 
 input[type="search"]:focus 
 {
@@ -123,7 +126,7 @@ input[type="search"]:focus
 }
 
 
-/* ---- Filters ---- */
+/* --- Filters --- */
 
 #filters_list a:hover
 {
@@ -1495,22 +1498,28 @@ input[type="search"]:focus
         width: 100%;
         height: 27rem;
 
-        margin-top: 3.35em;
+        margin-top: 2.35em;
 
-        padding: 0 2em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .footer-wrapper
+    {
+        width: 90%;
+        height: inherit;
 
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: flex-start;
+        align-items: center;
     }
 
     footer div 
     {
-        width: 100%;
+        width: 83%;
 
-        margin-left: auto;
-        margin-right: auto;
         display: flex;
         flex-direction: column;
     }
@@ -1553,11 +1562,15 @@ input[type="search"]:focus
 {
     #main_wrapper
     {    
-        max-width: 727px;
-        margin: auto;
+        max-width: 991px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    /* Header */
+    
+    /* --- Header --- */
 
     header nav
     {
@@ -1604,7 +1617,7 @@ input[type="search"]:focus
         border-top: 2px solid #0065fc;
     }
     
-    
+
     /* Section Search */
 
     #search
@@ -2243,20 +2256,27 @@ input[type="search"]:focus
         height: 15.71rem;
 
         margin-top: 3.5em;
-        padding: 0 0.57em;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .footer-wrapper
+    {
+        width: 100%;
+        height: inherit;
 
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
     }
 
     footer div 
     {
-        width: 25%;
+        width: 30%;
         height: 11.71rem;
-        
-        margin: 2em auto;
 
         display: flex;
         flex-direction: column;
@@ -2310,9 +2330,11 @@ input[type="search"]:focus
 {
     #main_wrapper
     {
-        max-width: 900px;
-        padding: 0 2em 0 0;
-        margin: auto;
+        max-width: 1199px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 
@@ -3018,20 +3040,27 @@ input[type="search"]:focus
         height: 15.71rem;
 
         margin-top: 3.5em;
-        padding: 0 0.57em;
 
         display: flex;
-        flex-direction: row;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
+    }
+
+    .footer-wrapper
+    {
+        width: 100%;
+        height: inherit;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     footer div 
     {
         width: 30%;
         height: 11.71rem;
-
-        margin: 2em auto;
 
         display: flex;
         flex-direction: column;
@@ -3073,15 +3102,20 @@ input[type="search"]:focus
 {
     #main_wrapper
     {    
-        max-width: 1347px;
+        max-width: 2560px;
 
-        margin: auto;
-        padding-left: 0.5%; 
-        padding-right: 0.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 
-    /* Header */
+    /* -- Header -- */
+
+    header
+    {
+        max-width: 1347px;
+    }
 
     header nav
     {
@@ -3127,8 +3161,15 @@ input[type="search"]:focus
         border-top: 0.14rem /* <-- 2px / 14px */ solid #0065fc;
     }
 
+    /* --- Page main content --- */
 
-    /* Section Search */
+    main
+    {
+        max-width: 1347px;
+    }
+
+
+    /* -- Section Search -- */
 
     #search 
     {
@@ -3787,20 +3828,30 @@ input[type="search"]:focus
         height: 15.71rem;
 
         margin-top: 3.5em;
-        padding: 0 0.57em;
 
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-wrapper 
+    {
+        width: 90%;
+        max-width: 1347px;
+
+        height: inherit;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     footer div 
     {
-        width: 30%;
+        width: 34%;
         height: 11.71rem;
-
-        margin: 2em auto;
 
         display: flex;
         flex-direction: column;
@@ -3831,6 +3882,21 @@ input[type="search"]:focus
     footer div ul li a 
     {
         font-size: 1rem;
+    }
+}
+
+/* ---- CSS rules specific to PC, TV and tablette ---- */
+
+@media (min-width: 768px)
+{    
+    header
+    {
+        width: 90%;
+    }
+    
+    main
+    {
+        width: 90%;
     }
 }
 
