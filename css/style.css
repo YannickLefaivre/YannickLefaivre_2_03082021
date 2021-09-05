@@ -359,7 +359,7 @@ input[type="search"]:focus
         margin-top: 0.4em;
     }
 
-    #location_search_form i
+    #location_search_form span
     {
         display: flex;
         flex-direction: column;
@@ -467,7 +467,7 @@ input[type="search"]:focus
         z-index: 1;
     }
 
-    .filters i
+    .filters span
     {
         width: 3rem;
         height: 3rem;
@@ -534,7 +534,7 @@ input[type="search"]:focus
         margin-left: 0.6em;
     }
 
-    #infos_on_research_result i
+    #infos_on_research_result span
     {
         width: 1.7rem;
         height: 1.7rem;
@@ -702,7 +702,7 @@ input[type="search"]:focus
         align-items: baseline;
     }
 
-    .trending_result > .title_plus_icon > i
+    .trending_result > .title_plus_icon > span
     {
         font-size: 1.3rem;
     }
@@ -993,7 +993,7 @@ input[type="search"]:focus
         margin-top: 0.4em;
     }
 
-    #location_search_form i
+    #location_search_form span
     {
         display: flex;
         flex-direction: column;
@@ -1099,7 +1099,7 @@ input[type="search"]:focus
         z-index: 1;
     }
 
-    .filters i
+    .filters span
     {
         width: 3rem;
         height: 3rem;
@@ -1166,7 +1166,7 @@ input[type="search"]:focus
         margin-left: 0.6em;
     }
 
-    #infos_on_research_result i
+    #infos_on_research_result span
     {
         width: 1.7rem;
         height: 1.7rem;
@@ -1335,7 +1335,7 @@ input[type="search"]:focus
         align-items: baseline;
     }
 
-    .trending_result > .title_plus_icon > i
+    .trending_result > .title_plus_icon > span
     {
         font-size: 1.3rem;
     }
@@ -1681,7 +1681,7 @@ input[type="search"]:focus
         margin-top: -0.2em;
     }
 
-    #location_search_form i
+    #location_search_form span
     {
         display: flex;
         flex-direction: column;
@@ -1784,7 +1784,7 @@ input[type="search"]:focus
         z-index: 1;
     }
 
-    .filters i 
+    .filters span 
     {
         width: 2.5rem;
         height: 2.5rem;
@@ -1852,7 +1852,7 @@ input[type="search"]:focus
         margin-left: 0.5em;
     }
 
-    #infos_on_research_result i
+    #infos_on_research_result span
     {
         width: 1.1rem;
         height: 1.1rem;
@@ -2027,7 +2027,7 @@ input[type="search"]:focus
         margin-bottom: 1.08rem;
     }
 
-    .trending_result > .title_plus_icon > i
+    .trending_result > .title_plus_icon > span
     {
         font-size: 1.3rem;
     }
@@ -2451,7 +2451,7 @@ input[type="search"]:focus
         margin-top: -0.6em;
     }
 
-    #location_search_form i 
+    #location_search_form span 
     {
         flex: 0.2;
 
@@ -2561,7 +2561,7 @@ input[type="search"]:focus
         z-index: 1;
     }
 
-    .filters i 
+    .filters span 
     {
         width: 2rem;
         height: 2rem;
@@ -2619,7 +2619,7 @@ input[type="search"]:focus
         align-items: center;
     }
 
-    #infos_on_research_result i 
+    #infos_on_research_result span 
     {
         width: 1rem;
         height: 1rem;
@@ -2803,7 +2803,7 @@ input[type="search"]:focus
         margin-bottom: 0;
     }
 
-    .trending_result > .title_plus_icon > i
+    .trending_result > .title_plus_icon > span
     {
         font-size: 1.3rem;
     }
@@ -3234,7 +3234,7 @@ input[type="search"]:focus
     }
 
     /* Allow me to center the icon in a flexbox and align it verticaly with search form others elements*/
-    #location_search_form i 
+    #location_search_form span 
     {
         flex: 0.13;
 
@@ -3347,7 +3347,7 @@ input[type="search"]:focus
         z-index: 1;
     }
 
-    .filters i 
+    .filters span 
     {
         width: 3.5rem;
         height: 3.5rem;
@@ -3406,7 +3406,7 @@ input[type="search"]:focus
         align-items: center;
     }
 
-    #infos_on_research_result i 
+    #infos_on_research_result span 
     {
         width: 1.9rem;
         height: 1.9rem;
@@ -3591,7 +3591,7 @@ input[type="search"]:focus
         margin-bottom: 1.08rem;
     }
 
-    .trending_result > .title_plus_icon > i
+    .trending_result > .title_plus_icon > span
     {
         font-size: 1.3rem;
     }
@@ -3924,7 +3924,7 @@ input[type="search"]:focus
 
 @media (min-width: 992px)
 {
-    #location_search_form i.fa-search
+    #location_search_form span.fa-search
     {
         display: none;
     }
