@@ -564,6 +564,7 @@ input[type="search"]:focus
 
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     #accommodation h2, #accommodation .fa-chart-line
