@@ -3123,11 +3123,9 @@ input[type="search"]:focus
 {
     #main_wrapper
     {    
-        max-width: 2560px;
+        max-width: 1440px;
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin: 0 auto;
     }
 
 
@@ -3135,7 +3133,9 @@ input[type="search"]:focus
 
     header
     {
-        max-width: 1347px;
+        width: 95%;
+
+        margin: 0 auto;
     }
 
     header nav
@@ -3186,7 +3186,9 @@ input[type="search"]:focus
 
     main
     {
-        max-width: 1347px;
+        width: 95%;
+
+        margin: 0 auto;
     }
 
 
@@ -3858,8 +3860,7 @@ input[type="search"]:focus
 
     .footer-wrapper 
     {
-        width: 90%;
-        max-width: 1347px;
+        width: 95%;
 
         height: inherit;
 
@@ -3871,7 +3872,7 @@ input[type="search"]:focus
 
     footer div 
     {
-        width: 34%;
+        width: 33%;
         height: 11.71rem;
 
         display: flex;
@@ -3908,7 +3909,7 @@ input[type="search"]:focus
 
 /* ---- CSS rules specific to PC, TV and tablette ---- */
 
-@media (min-width: 768px)
+@media (min-width: 768px) and (max-width: 1199px)
 {    
     header
     {
