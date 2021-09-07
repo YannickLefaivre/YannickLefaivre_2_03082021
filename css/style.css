@@ -80,9 +80,7 @@ article
 
 .accommodation-picture, .activity-picture
 {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 
@@ -137,96 +135,6 @@ input[type="search"]:focus
 {
     border-color: #deebff;
 }
-
-
-/* ---- accommodation ---- */
-
-.auberge-la-cannebiere .accommodation-picture 
-{
-    background-image: url("backgrounds/accommodation/auberge_la_cannebiere.jpg");
-}
-
-.hotel-du-port .accommodation-picture
-{
-    background-image: url("backgrounds/accommodation/hotel_du_port.jpg");
-}
-
-.hotel-les-mouettes .accommodation-picture
-{
-    background-image: url("backgrounds/accommodation/hotel_les_mouettes.jpg");
-}
-
-.hotel-de-la-mere .accommodation-picture
-{
-    background-image: url("backgrounds/accommodation/hotel_de_la_mer.jpg");
-}
-
-.auberge-le-panier .accommodation-picture
-{
-    background-image: url("backgrounds/accommodation/auberge_le_panier.jpg");
-}
-
-.hotel-chez-amina .accommodation-picture
-{
-    background-image: url("backgrounds/accommodation/hotel_chez_amina.jpg");
-}
-
-.hotel-le-soleil-du-matin .accommodation-picture
-{
-    background-image: url("backgrounds/accommodation/hotel_le_soleil_du_matin.jpg");
-}
-
-.au-coeur-de-l-eau-Chambres-d-hotes .accommodation-picture
-{
-    background-image: url("backgrounds/accommodation/au_coeur_de_l_eau_chambre_d_hote.jpg");
-}
-
-.hotel-tout-bleu-et-blanc .accommodation-picture
-{
-    background-image: url("backgrounds/accommodation/hotel_tout_bleu_et_blanc.jpg");
-}
-
-
-
-/* ---- Activities ---- */
-
-
-/* -- Sub Column one -- */
-
-
-.activities-sub-col-one > .ac-vieux-port > a > .activity-picture
-{
-    background-image: url("backgrounds/activities/vieux-port.jpg") ;
-}
-
-.activities-sub-col-one > .ac-parc-national-des-calanques > a > .activity-picture
-{
-    background-image: url("backgrounds/activities/parc-national-de-calanques.jpg") ;
-}
-
-
-/* -- Sub column two -- */
-
-.activities-sub-col-two > .ac-fort-pomegues > a > .activity-picture
-{
-    background-image: url("backgrounds/activities/fort-de-pomegues.jpg");
-}
-
-.activities-sub-col-two > .ac-iles-du-frioul > a > .activity-picture
-{
-    background-image: url("backgrounds/activities/iles-du-frioul.jpg");
-}
-
-.activities-sub-col-two > .ac-notre-dame-de-la-garde > a > .activity-picture
-{
-    background-image: url("backgrounds/activities/notre-dame-de-la-garde.jpg");
-}
-
-.activities-sub-col-two > .ac-parc-longchamp > a > .activity-picture
-{
-    background-image: url("backgrounds/activities/parc-longchamp.jpg");
-}
-
 
 
 /* ---- Specific rules for small Mobile ---- */
