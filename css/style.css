@@ -776,7 +776,7 @@ input[type="search"]:focus
 
 /* Specific layout rules for mobile S. L. and M.*/
 
-@media (min-width: 320px) and (max-width: 500px) and (orientation: portrait), (min-width: 320px) and (max-width: 767px) and (orientation: landscape)
+@media (min-width: 320px) and (max-width: 670px) and (orientation: portrait), (min-width: 320px) and (max-width: 690px) and (orientation: landscape)
 {
     /* --- Header --- */
 
