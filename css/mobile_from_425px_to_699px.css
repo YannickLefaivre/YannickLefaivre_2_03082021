@@ -1,0 +1,61 @@
+/*Specific layout rules for mobile L. between 500px and 630px*/
+
+/*@media (min-width: 500px) and (max-width: 630px)
+{
+
+
+}*/
+
+
+/*Specific layout rules for mobile L. between 500px and 630px*/
+
+@media (min-width: 500px) and (max-width: 637px)
+{
+    #filters 
+    {
+        height: 15rem;
+    }
+
+    #filters_list 
+    {
+        height: 140px;
+        align-content: space-around;
+    }
+
+    header nav ul li:nth-child(1) a, header nav ul li:nth-child(2) a 
+    {
+        padding: 0 5em 1em 5em;
+    }
+
+    header nav ul li:last-child 
+    {
+        margin-left: 19em;
+    }
+
+    header nav ul li 
+    {
+        margin-left: -5em;
+    }
+}
+
+/*Specific layout rules for mobile L. between 630px and 699px*/
+
+@media (min-width: 638px) and (max-width: 699px)
+{
+    header nav ul li:nth-child(1) a, header nav ul li:nth-child(2) a 
+    {
+        padding: 0 7em 1em 7em;
+    }
+
+    header nav ul li:last-child 
+    {
+        margin-left: 23em;
+    }
+    
+    .trending_result > article 
+    {
+        width: 70%;
+        align-self: center;
+    }
+}
+

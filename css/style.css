@@ -774,16 +774,10 @@ input[type="search"]:focus
 }
 
 
-/* Specific layout rules for mobile S. L. and M.*/
+/* Specific layout rules for mobile  S. M. and L.*/
 
-@media (min-width: 320px) and (max-width: 767px)
+@media (min-width: 320px) and (max-width: 767px) and (orientation: portrait), (min-width: 320px) and (max-width: 699px) and (orientation: landscape)
 {
-    #main_wrapper
-    {
-        margin: auto;
-    }
-
-
     /* --- Header --- */
 
     header 
@@ -803,7 +797,8 @@ input[type="search"]:focus
 
     #logo
     {
-        margin-top: 0.5em
+        margin-top: 0.5em;
+        height: 3.21em;
     }
 
     header nav ul
@@ -1408,7 +1403,7 @@ input[type="search"]:focus
 
 
 /* Rule for mobile L */
-@media (min-width: 376px) and (max-width: 767px)
+@media (min-width: 376px) and (max-width: 500px) and (orientation: portrait)
 {
     #filters_list
     {
@@ -1487,7 +1482,7 @@ input[type="search"]:focus
 
 /* Specific layout rules for tablette */
 
-@media (min-width: 768px) and (max-width: 991px)
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait), (min-width: 700px) and (max-width: 991px) and (orientation: landscape)
 {
     #main_wrapper
     {    
@@ -2238,8 +2233,6 @@ input[type="search"]:focus
         font-size: 0.9rem;
     }
 }
-
-
 
 /* Specific layout rules for mobiles and tablettes */
 
@@ -3817,7 +3810,7 @@ input[type="search"]:focus
 
 /* ---- CSS rules specific to PC, TV and tablette ---- */
 
-@media (min-width: 768px) and (max-width: 1199px)
+@media (min-width: 700px) and (max-width: 1199px) and (orientation: portrait), (min-width: 700px) and (max-width: 1199px) and (orientation: landscape)
 {    
     header
     {
