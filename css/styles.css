@@ -306,18 +306,18 @@ input[type="search"]:focus
         border-radius: 0;
     }
 
-    .fa-search
+    #search_button_with_icon 
     {
-        width: 3rem;
-        height: 3em;
+        width: 2.8em;
+        height: 2.8em;
 
-        font-size: 1em;
-        
-        margin-left: -2.5em;
+        font-size: 1rem;
+        margin-left: -2em;
 
         color: white;
         background-color: #0065fc;
-
+        
+        border-style: hidden;
         border-radius: 30%;
     }
 
@@ -936,18 +936,18 @@ input[type="search"]:focus
         border-radius: 0;
     }
 
-    .fa-search
+    #search_button_with_icon 
     {
-        width: 3rem;
-        height: 3em;
+        width: 2.8em;
+        height: 2.8em;
 
-        font-size: 1em;
-        
-        margin-left: -2.5em;
+        font-size: 1rem;
+        margin-left: -2em;
 
         color: white;
         background-color: #0065fc;
-
+        
+        border-style: hidden;
         border-radius: 30%;
     }
 
@@ -1622,18 +1622,18 @@ input[type="search"]:focus
         border-radius: 0;
     }
 
-    .fa-search
+    #search_button_with_icon 
     {
         width: 3em;
         height: 3em;
 
-        font-size: 0.8em;
-        
+        font-size: 0.8rem;
         margin-left: -2em;
 
         color: white;
         background-color: #0065fc;
-
+        
+        border-style: hidden;
         border-radius: 30%;
     }
 
@@ -3827,7 +3827,7 @@ input[type="search"]:focus
 
 @media (min-width: 992px)
 {
-    #location_search_form span.fa-search
+    #location_search_form #search_button_with_icon
     {
         display: none;
     }
