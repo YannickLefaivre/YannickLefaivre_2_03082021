@@ -1402,7 +1402,7 @@ input[type="search"]:focus
 }
 
 
-/* Rule for mobile L */
+/* ---- Rule for mobile L ---- */
 @media (min-width: 376px) and (max-width: 500px) and (orientation: portrait)
 {
     #filters_list
@@ -1411,7 +1411,7 @@ input[type="search"]:focus
     }
 }
 
-/* ---- Specific layout rules for mobile L. between 426px and 429px ---- */
+/* ---- Specific layout rules for mobile L. between 426px and 490px ---- */
 
 @media (min-width: 426px) and (max-width: 490px)
 {
@@ -1627,27 +1627,209 @@ input[type="search"]:focus
     }
 }
 
+
+/* ---- Specific layout rules for mobile L. with a width between 440px and 449px ---- */
+
 @media (min-width: 440px) and (max-width: 499px)
 {
+    /* --- Header --- */
+
+    header nav ul li 
+    {
+        margin-left: -5em;
+    }
+
+    header nav ul li:nth-child(1) a, header nav ul li:nth-child(2) a 
+    {
+        padding: 0 5em 1em 5em;
+    }
+
+    header nav ul li:last-child 
+    {
+        margin-left: 17em;
+    }
+
+
+    /* --- Main page content --- */
+
+
+    /* -- Section Filters -- */
+
     #filters 
     {
         height: 20rem;
+
+        margin-bottom: 0.8em;
     }
+
+    #filters_list 
+    {
+        height: 10rem;
+        align-content: space-around;
+    }
+
+
+    /* -- Section Accommodation -- */
+
+    #accommodation 
+    {
+        height: 108rem;
+
+        margin-top: 0.8em;
+    }
+
+
+    /* - Search result - */
+
+    .search_result_accommodation 
+    {
+        height: 72rem;
+    }
+    
+    .search_result_accommodation > .accommodation_row 
+    {
+        height: 44.21rem;
+
+        margin-bottom: 0.6em;
+        
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+
+    .search_result_accommodation > .accommodation_row > article
+    {
+        width: 45%
+    }
+
+
+    /* - Search result - */
 
     .search_result_accommodation > .accommodation_row > article:nth-child(1) 
     {
-        margin-right: 1.5em;
+        margin-right: 1.3em;
     }
 
     .search_result_accommodation > .accommodation_row > article:nth-child(2) 
     {
-        margin-left: 1.5em;
+        margin-left: 1.3em;
+    }
+
+    
+    .search_result_accommodation > .accommodation_row > article:nth-child(3) 
+    {
+        margin-top: 1.5em;
+    }
+    
+
+    /* - Trending result - */
+
+    .trending_result > article 
+    {
+        width: 75%;
+        align-self: center;
+    }
+
+
+    /* --- Section Activities --- */
+
+
+    /* -- Container -- */
+
+    #activities 
+    {
+        height: 67rem;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    #activities h2 
+    {
+        margin-bottom: 1.3em;
+    }
+    
+    #activities article
+    {
+        width: 45%;
+        height: 13.5rem;
+    }
+    
+    #activities article a 
+    {
+        width: 100%;
+    }
+
+    #activities .activities-sub-col-two > article:nth-child(1) 
+    {
+        margin-right: 1.7em;
+    }
+
+    #activities .activities-sub-col-two > article:nth-child(2)
+    {
+        margin-left: 1.7em;
+    }
+
+
+    /* - Column - */
+    
+    .activities-col 
+    {
+        width: 100%;
+        height: 30rem;
+    
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+    .activities-sub-col-one, .activities-sub-col-two
+    {
+        width: 100%;
+        height: 13.5rem;
+    }
+
+
+    /* Sub column 1 */
+    
+    .activities-sub-col-one 
+    {
+        margin-bottom: 1em;
+
+        display: flex;
+        justify-content: center;
+    }
+    
+    .activities-sub-col-one > article 
+    {
+        width: 100%;
+    }
+    
+
+    /* Sub column 2 */
+
+    .activities-sub-col-two 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
 
+
+/* ---- Specific layout rules for mobile L. with 500px of width ---- */
+
+@media (min-width: 500px) and (max-width: 504px)
+{
+    #filters_list 
+    {
+        width: 93%;
+    }
+}
+
+
 /* ---- Specific layout rules for mobile L. between 426px and 630px ---- */
 
-@media (min-width: 431px) and (max-width: 587px)
+@media (min-width: 500px) and (max-width: 587px)
 {
     /* --- Header --- */
 
