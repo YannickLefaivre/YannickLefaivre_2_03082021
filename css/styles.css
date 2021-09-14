@@ -137,6 +137,14 @@ input[type="search"]:focus
 }
 
 
+/* --- Footer --- */
+
+footer a:hover
+{
+    text-decoration: underline;
+}
+
+
 /* ---- Specific rules for small Mobile ---- */
 @media (max-width: 319px)
 {
