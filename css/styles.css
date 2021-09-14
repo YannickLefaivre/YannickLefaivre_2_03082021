@@ -137,6 +137,14 @@ input[type="search"]:focus
 }
 
 
+/* --- Footer --- */
+
+footer a:hover
+{
+    border-bottom: 1px solid black;
+}
+
+
 /* ---- Specific rules for small Mobile ---- */
 @media (max-width: 319px)
 {
