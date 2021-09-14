@@ -1411,20 +1411,243 @@ input[type="search"]:focus
     }
 }
 
-/* ---- Specific layout rules for mobile L. between 426px and 559px ---- */
+/* ---- Specific layout rules for mobile L. between 426px and 429px ---- */
 
-@media (min-width: 426px) and (max-width: 587px)
+@media (min-width: 426px) and (max-width: 490px)
 {
+    
+    /* --- main page content --- */
+
+    /* -- Section Filters -- */
+
+    #filters 
+    {
+        margin-bottom: 1em;
+    }
+    
+    #filters_list 
+    {
+        height: 10rem;
+        align-content: space-around;
+    }
+
+    .filters:nth-child(3) 
+    {
+        width: 9.8rem;
+    }
+    
+    .filters:nth-child(4) 
+    {
+        width: 12.4rem;
+    }
+
+
+    /* -- Section Accommodation -- */
+
+    #accommodation 
+    {
+        height: 108rem;
+    }
+
+    /* - Search result - */
+    
     .search_result_accommodation 
     {
-        height: 71rem;
+        height: 72rem;
+    }
+    
+
+    /* -- Section Accommodation -- */
+
+    #accommodation 
+    {
+        height: 105rem;
+        
+        margin-top: 1em;
+    }
+
+    #accommodation .accommodation-infos h3 
+    {
+        font-size: 0.9rem;
+    }
+
+    #accommodation .accommodation-infos p 
+    {
+        font-size: 0.8rem;
+    }
+
+    #accommodation .accommodation-infos .accommodation_ranking 
+    {
+        font-size: 0.7rem;
+    }
+
+
+    /* - subsection Search result - */
+    
+    .search_result_accommodation 
+    {
+        height: 70rem;
+    }
+    
+    .search_result_accommodation > .accommodation_row 
+    {
+        height: 29rem;
+        
+        margin-bottom: 0.4em;
+        
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    
+    .search_result_accommodation > .accommodation_row > article 
+    {
+        width: 45%;
+        height: 12.5rem;
+        margin-top: 0.8em;
+        margin-bottom: 0.8em;
+    }
+    
+    .search_result_accommodation > .accommodation_row > article:nth-child(1) 
+    {
+        margin-right: 1.2em;
+    }
+    
+    .search_result_accommodation > .accommodation_row > article:nth-child(2) 
+    {
+        margin-left: 1.2em;
+    }
+    
+    .search_result_accommodation > .accommodation_row > article:nth-child(3) 
+    {
+        margin-top: 1.5em;
+    }
+
+
+    /* - subsection Trending result - */
+
+    .trending_result 
+    {
+        height: 36rem;
+    }
+
+    .trending_result > article 
+    {
+        width: 80%;
+        align-self: center;
+    }
+
+    .trending_result > article > a > .accommodation-infos 
+    {
+        width: 45%;
+    }
+
+
+    /* -- Section Activities -- */
+
+
+    /* - Container -- */
+
+    #activities 
+    {
+        height: 67rem;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    #activities h2 
+    {
+        margin-bottom: 1.3em;
+    }
+    
+    #activities article
+    {
+        width: 45%;
+        height: 13.5rem;
+    }
+    
+    #activities article a 
+    {
+        width: 100%;
+    }
+
+    #activities .activities-sub-col-two > article:nth-child(1) 
+    {
+        margin-right: 1.7em;
+    }
+
+    #activities .activities-sub-col-two > article:nth-child(2)
+    {
+        margin-left: 1.7em;
+    }
+
+
+    /* - Column - */
+    
+    .activities-col 
+    {
+        width: 100%;
+        height: 30rem;
+    
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+    .activities-sub-col-one, .activities-sub-col-two
+    {
+        width: 100%;
+        height: 13.5rem;
+    }
+
+
+    /* Sub column 1 */
+    
+    .activities-sub-col-one 
+    {
+        margin-bottom: 1em;
+
+        display: flex;
+        justify-content: center;
+    }
+    
+    .activities-sub-col-one > article 
+    {
+        width: 100%;
+    }
+    
+
+    /* Sub column 2 */
+
+    .activities-sub-col-two 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
 
+@media (min-width: 440px) and (max-width: 499px)
+{
+    #filters 
+    {
+        height: 20rem;
+    }
+
+    .search_result_accommodation > .accommodation_row > article:nth-child(1) 
+    {
+        margin-right: 1.5em;
+    }
+
+    .search_result_accommodation > .accommodation_row > article:nth-child(2) 
+    {
+        margin-left: 1.5em;
+    }
+}
 
 /* ---- Specific layout rules for mobile L. between 426px and 630px ---- */
 
-@media (min-width: 426px) and (max-width: 587px)
+@media (min-width: 431px) and (max-width: 587px)
 {
     /* --- Header --- */
 
@@ -1456,12 +1679,12 @@ input[type="search"]:focus
 
     #filters_list 
     {
-        height: 140px;
+        height: 10rem;
         align-content: space-around;
     }
 
 
-    /* -- Section Accomodation -- */
+    /* -- Section Accommodation -- */
 
     #accommodation 
     {
@@ -1604,6 +1827,8 @@ input[type="search"]:focus
 
 @media (min-width: 580px) and (max-width: 699px)
 {
+    /* --- Header --- */
+
     header nav ul li:nth-child(1) a, header nav ul li:nth-child(2) a 
     {
         padding: 0 7em 1em 7em;
@@ -1613,6 +1838,11 @@ input[type="search"]:focus
     {
         margin-left: 23em;
     }
+
+    /* --- Main page content --- */
+
+
+    /* -- Section Filters --*/
 
     #filters 
     {
@@ -1625,12 +1855,153 @@ input[type="search"]:focus
         align-content: space-around;
     }
     
+    
+
+    /* -- Section Accommodation -- */
+
+    #accommodation 
+    {
+        height: 108rem;
+    }
+
+
+    /* - subsection Search result - */
+    
+    .search_result_accommodation 
+    {
+        height: 72rem;
+    }
+    
+    .search_result_accommodation > .accommodation_row 
+    {
+        height: 44.21rem;
+
+        margin-bottom: 0.6em;
+        
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+
+    .search_result_accommodation > .accommodation_row > article
+    {
+        width: 45%
+    }
+    
+    .search_result_accommodation > .accommodation_row > article:nth-child(1) 
+    {
+        margin-right: 1.7em;
+    }
+    
+    .search_result_accommodation > .accommodation_row > article:nth-child(2) 
+    {
+        margin-left: 1.7em;
+    }
+    
+    .search_result_accommodation > .accommodation_row > article:nth-child(3) 
+    {
+        margin-top: 1.5em;
+    }
+    
+
+    /* - Trending result - */
+
     .trending_result > article 
     {
-        width: 70%;
+        width: 69%;
         align-self: center;
     }
+
+    .trending_result > article > a > .accommodation-picture 
+    {
+        width: 10rem;
+    }
+
+
+    /* --- Section Activities --- */
+
+
+    /* -- Container -- */
+
+    #activities 
+    {
+        height: 67rem;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    #activities h2 
+    {
+        margin-bottom: 1.3em;
+    }
+    
+    #activities article
+    {
+        width: 45%;
+        height: 13.5rem;
+    }
+    
+    #activities article a 
+    {
+        width: 100%;
+    }
+
+    #activities .activities-sub-col-two > article:nth-child(1) 
+    {
+        margin-right: 1.7em;
+    }
+
+    #activities .activities-sub-col-two > article:nth-child(2)
+    {
+        margin-left: 1.7em;
+    }
+
+
+    /* - Column - */
+    
+    .activities-col 
+    {
+        width: 100%;
+        height: 30rem;
+    
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+    .activities-sub-col-one, .activities-sub-col-two
+    {
+        width: 100%;
+        height: 13.5rem;
+    }
+
+
+    /* Sub column 1 */
+    
+    .activities-sub-col-one 
+    {
+        margin-bottom: 1em;
+
+        display: flex;
+        justify-content: center;
+    }
+    
+    .activities-sub-col-one > article 
+    {
+        width: 100%;
+    }
+    
+
+    /* Sub column 2 */
+
+    .activities-sub-col-two 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
+
 
 /* ---- Rules for all mobile ---- */
 @media (min-width: 0) and (max-width: 767px)
