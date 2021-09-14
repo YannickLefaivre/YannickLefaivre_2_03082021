@@ -141,7 +141,7 @@ input[type="search"]:focus
 
 footer a:hover
 {
-    border-bottom: 1px solid black;
+    text-decoration: underline;
 }
 
 
