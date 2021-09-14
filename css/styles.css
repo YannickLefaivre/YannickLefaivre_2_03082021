@@ -1411,6 +1411,226 @@ input[type="search"]:focus
     }
 }
 
+/* ---- Specific layout rules for mobile L. between 426px and 559px ---- */
+
+@media (min-width: 426px) and (max-width: 587px)
+{
+    .search_result_accommodation 
+    {
+        height: 71rem;
+    }
+}
+
+
+/* ---- Specific layout rules for mobile L. between 426px and 630px ---- */
+
+@media (min-width: 426px) and (max-width: 587px)
+{
+    /* --- Header --- */
+
+    header nav ul li:nth-child(1) a, header nav ul li:nth-child(2) a 
+    {
+        padding: 0 5em 1em 5em;
+    }
+
+    header nav ul li:last-child 
+    {
+        margin-left: 17em;
+    }
+
+    header nav ul li 
+    {
+        margin-left: -5em;
+    }
+
+
+    /* --- Main page content --- */
+
+
+    /* -- Section Filters -- */
+
+    #filters 
+    {
+        height: 15rem;
+    }
+
+    #filters_list 
+    {
+        height: 140px;
+        align-content: space-around;
+    }
+
+
+    /* -- Section Accomodation -- */
+
+    #accommodation 
+    {
+        height: 108rem;
+    }
+
+    /* - Search result - */
+    
+    .search_result_accommodation 
+    {
+        height: 72rem;
+    }
+    
+    .search_result_accommodation > .accommodation_row 
+    {
+        height: 44.21rem;
+
+        margin-bottom: 0.6em;
+        
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+
+    .search_result_accommodation > .accommodation_row > article
+    {
+        width: 45%
+    }
+    
+    .search_result_accommodation > .accommodation_row > article:nth-child(1) 
+    {
+        margin-right: 1.7em;
+    }
+    
+    .search_result_accommodation > .accommodation_row > article:nth-child(2) 
+    {
+        margin-left: 1.7em;
+    }
+    
+    .search_result_accommodation > .accommodation_row > article:nth-child(3) 
+    {
+        margin-top: 1.5em;
+    }
+    
+
+    /* - Trending result - */
+
+    .trending_result > article 
+    {
+        width: 75%;
+        align-self: center;
+    }
+
+
+    /* --- Section Activities --- */
+
+
+    /* -- Container -- */
+
+    #activities 
+    {
+        height: 67rem;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    #activities h2 
+    {
+        margin-bottom: 1.3em;
+    }
+    
+    #activities article
+    {
+        width: 45%;
+        height: 13.5rem;
+    }
+    
+    #activities article a 
+    {
+        width: 100%;
+    }
+
+    #activities .activities-sub-col-two > article:nth-child(1) 
+    {
+        margin-right: 1.7em;
+    }
+
+    #activities .activities-sub-col-two > article:nth-child(2)
+    {
+        margin-left: 1.7em;
+    }
+
+
+    /* - Column - */
+    
+    .activities-col 
+    {
+        width: 100%;
+        height: 30rem;
+    
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+    .activities-sub-col-one, .activities-sub-col-two
+    {
+        width: 100%;
+        height: 13.5rem;
+    }
+
+
+    /* Sub column 1 */
+    
+    .activities-sub-col-one 
+    {
+        margin-bottom: 1em;
+
+        display: flex;
+        justify-content: center;
+    }
+    
+    .activities-sub-col-one > article 
+    {
+        width: 100%;
+    }
+    
+
+    /* Sub column 2 */
+
+    .activities-sub-col-two 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* ---- Specific layout rules for mobile L. between 630px and 699px ---- */
+
+@media (min-width: 580px) and (max-width: 699px)
+{
+    header nav ul li:nth-child(1) a, header nav ul li:nth-child(2) a 
+    {
+        padding: 0 7em 1em 7em;
+    }
+
+    header nav ul li:last-child 
+    {
+        margin-left: 23em;
+    }
+
+    #filters 
+    {
+        height: 15rem;
+    }
+
+    #filters_list 
+    {
+        height: 140px;
+        align-content: space-around;
+    }
+    
+    .trending_result > article 
+    {
+        width: 70%;
+        align-self: center;
+    }
+}
 
 /* ---- Rules for all mobile ---- */
 @media (min-width: 0) and (max-width: 767px)
