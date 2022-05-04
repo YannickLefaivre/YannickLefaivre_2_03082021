@@ -1,6 +1,6 @@
 # Projet 2 de la formation de Développeur Front-End d'OpenClassrooms
 
-## Objectif : Transformer une maquette en site web avec HTML & CSS
+Objectif : Transformer une maquette en site web avec HTML & CSS
 
 ## Contexte :
 
